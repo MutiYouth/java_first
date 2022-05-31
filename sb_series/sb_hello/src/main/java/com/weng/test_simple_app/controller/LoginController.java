@@ -10,21 +10,23 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class LoginController {
 
-  // 将Service注入Web层
-  @Autowired UserService userService;
+	// 将Service注入Web层
+	@Autowired
+	UserService userService;
 
-  @RequestMapping("/login")
-  public String show() {
-    return "login";
-  }
+	@RequestMapping("/login")
+	public String show() {
+		return "login";
+	}
 
-  @RequestMapping(value = "/loginIn", method = RequestMethod.POST)
-  public String login(String name, String password) {
-    UserBean userBean = userService.login(name, password);
-    if (userBean != null) {
-      return "success";
-    } else {
-      return "error";
-    }
-  }
+	@RequestMapping(value = "/loginIn", method = RequestMethod.POST)
+	public String login(String name, String password) {
+		UserBean userBean = userService.login(name, password);
+		if (userBean != null) {
+			return "success";
+		}
+		else {
+			return "error";
+		}
+	}
 }

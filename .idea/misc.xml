@@ -11,12 +11,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/sb_series/sb_curd/pom.xml" />
-        <option value="$PROJECT_DIR$/sb_series/sb_hello/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/pom.xml" />
         <option value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/pom.xml" />
         <option value="$PROJECT_DIR$/themes/180708_Youth_Blog2/pom.xml" />
+        <option value="$PROJECT_DIR$/sb_series/sb_hello/pom.xml" />
       </list>
     </option>
   </component>

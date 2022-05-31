@@ -4,6 +4,6 @@ import com.weng.test_simple_app.bean.UserBean;
 
 public interface UserService {
 
-    UserBean login(String name, String password);
+	UserBean login(String name, String password);
 
 }

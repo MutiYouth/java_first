@@ -1,4 +1,4 @@
-use test_springboot;
+use test;
 
 DROP TABLE IF EXISTS `tsa_user`;
 CREATE TABLE `tsa_user` (

@@ -1,13 +1,14 @@
+server:
+  port: 8070
+  context-path: /
 
 spring:
   datasource:
-    name: test  #Êı¾İ¿âÃû
-    url: jdbc:mysql://localhost:3306/test_springboot #url
-    username: root  #ÓÃ»§Ãû
-    password: cheetah2019  #ÃÜÂë
-    driver-class-name: com.mysql.jdbc.Driver  #Êı¾İ¿âÁ´½ÓÇı¶¯
-
+    driver-class-name: com.mysql.jdbc.Driver    # æ•°æ®åº“é“¾æ¥é©±åŠ¨
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: cheetah2019
 
 mybatis:
-  mapper-locations: classpath:mapper/*.xml  #ÅäÖÃÓ³ÉäÎÄ¼ş
-  type-aliases-package: com.example.test.bean #ÅäÖÃÊµÌåÀà
+  mapper-locations: classpath:mapper/*.xml                # é…ç½®æ˜ å°„æ–‡ä»¶
+  type-aliases-package: com.weng.test_simple_app.bean     # é…ç½®å®ä½“ç±»

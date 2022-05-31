@@ -9,11 +9,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserServiceImpl implements UserService {
 
-  // 将DAO注入到Service层
-  @Autowired UserMapper userMapper;
+	// 将DAO注入到Service层
+	@Autowired
+	UserMapper userMapper;
 
-  @Override
-  public UserBean login(String name, String password) {
-    return userMapper.getInfo(name, password);
-  }
+	@Override
+	public UserBean login(String name, String password) {
+		return userMapper.getInfo(name, password);
+	}
 }
