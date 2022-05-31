@@ -2,11 +2,11 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.hisen</groupId>
-  <artifactId>BookSystem_V3</artifactId>
+  <groupId>com.weng</groupId>
+  <artifactId>ssm_bs_v3</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>BookSystem_V3 Maven Webapp</name>
+  <name>ssm_bs_v3 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -199,7 +199,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>BookSystem_V3</finalName>
+    <finalName>ssm_bs_v3</finalName>
     <plugins>
       <plugin>
         <groupId>org.mybatis.generator</groupId>
@@ -209,7 +209,7 @@
           <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.5</version>
+            <version>8.0.11</version>
           </dependency>
         </dependencies>
         <configuration>
