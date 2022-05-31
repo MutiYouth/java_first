@@ -9,18 +9,18 @@
                         http://www.springframework.org/schema/context/spring-context.xsd
                         http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
   <!--切面-->
-  <bean id="timeHandler" class="com.hisen.aop.TimeHandler"/>
-  <bean id="getMethodInfoHandler" class="com.hisen.aop.GetMethodInfoHandler"/>
+  <bean id="timeHandler" class="com.weng.aop.TimeHandler"/>
+  <bean id="getMethodInfoHandler" class="com.weng.aop.GetMethodInfoHandler"/>
   <aop:config>
     <aop:aspect id="time" ref="timeHandler">
       <!--给所有方法都加上切面功能 - 打印时间 -->
-      <aop:pointcut id="addAllMethod" expression="execution(* com.hisen.service.BookService.*(..))"/>
+      <aop:pointcut id="addAllMethod" expression="execution(* com.weng.service.BookService.*(..))"/>
       <aop:before method="printTime" pointcut-ref="addAllMethod"/>
       <aop:after method="printTime" pointcut-ref="addAllMethod"/>
     </aop:aspect>
     <aop:aspect id="info" ref="getMethodInfoHandler">
       <!--给所有方法都加上切面功能 - 打印时间 -->
-      <aop:pointcut id="addInfo" expression="execution(* com.hisen.service.BookService.*(..))"/>
+      <aop:pointcut id="addInfo" expression="execution(* com.weng.service.BookService.*(..))"/>
       <aop:before method="getInfo" pointcut-ref="addInfo"/>
       <aop:after method="getInfo" pointcut-ref="addInfo"/>
     </aop:aspect>

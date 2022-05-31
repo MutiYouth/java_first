@@ -1,5 +1,5 @@
-import com.hisen.dao.form.AppointmentForm;
-import com.hisen.service.AppointmentService;
+import com.weng.dao.form.AppointmentForm;
+import com.weng.service.AppointmentService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

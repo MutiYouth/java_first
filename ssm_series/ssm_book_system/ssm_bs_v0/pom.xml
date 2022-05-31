@@ -3,7 +3,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.hisen</groupId>
-  <artifactId>BookSystem_V0</artifactId>
+  <artifactId>ssm_bs_v0</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>BookSystem_V0 Maven Webapp</name>
@@ -125,8 +125,11 @@
           <scope>test</scope>
       </dependency>
   </dependencies>
+
+
+
   <build>
-    <finalName>BookSystem_V0</finalName>
+    <finalName>ssm_bs_v0</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -138,4 +141,5 @@
       </plugin>
     </plugins>
   </build>
+
 </project>

@@ -1,5 +1,5 @@
-import com.hisen.dao.UserMapper;
-import com.hisen.entity.User;
+import com.weng.dao.UserMapper;
+import com.weng.entity.User;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

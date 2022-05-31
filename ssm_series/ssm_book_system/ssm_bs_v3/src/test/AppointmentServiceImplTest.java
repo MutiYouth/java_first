@@ -1,5 +1,5 @@
-import com.hisen.bean.request.AppointmentRequest;
-import com.hisen.service.AppointmentService;
+import com.weng.bean.request.AppointmentRequest;
+import com.weng.service.AppointmentService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

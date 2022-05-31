@@ -62,7 +62,7 @@ http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
     <mvc:interceptor>
       <mvc:exclude-mapping path="/login"/>
       <mvc:mapping path="/**" />
-      <bean class="com.hisen.filter.JWTCheckInterceptor"></bean>
+      <bean class="com.weng.filter.JWTCheckInterceptor"></bean>
     </mvc:interceptor>
   </mvc:interceptors>
   
@@ -73,7 +73,7 @@ http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
     <mvc:interceptor>
       <mvc:mapping path="/**" />
       <mvc:exclude-mapping path="/login"/>
-      <bean class="com.hisen.filter.JWTCheckInterceptor"></bean>
+      <bean class="com.weng.filter.JWTCheckInterceptor"></bean>
     </mvc:interceptor>
   </mvc:interceptors>
 ```
