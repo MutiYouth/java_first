@@ -17,9 +17,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-/**
- * Created by hisenyuan on 2017/8/2 at 10:36.
- */
+
 @Service
 public class AppointmentServiceImpl implements AppointmentService {
 

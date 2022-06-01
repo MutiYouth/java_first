@@ -3,9 +3,7 @@ import com.weng.entity.User;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-/**
- * Created by hisenyuan on 2017/8/2 at 11:18.
- */
+
 public class UserDaoTest extends BaseTest {
   @Autowired
   private UserMapper userMapper;

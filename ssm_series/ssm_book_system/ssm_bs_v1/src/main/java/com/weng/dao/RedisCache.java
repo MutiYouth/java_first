@@ -16,7 +16,6 @@ import redis.clients.jedis.exceptions.JedisConnectionException;
 /**
  * 使用第三方内存数据库Redis作为二级缓存
  * 模仿Ehcache写的一个RedisCache缓存类
- * Created by hisenyuan on 2017/5/18 at 15:55.
  */
 public class RedisCache implements Cache {
 

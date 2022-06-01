@@ -1,8 +1,5 @@
 package com.weng.test;
 
-/**
- * Created by hisenyuan on 2017/5/3 at 19:40.
- */
 
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

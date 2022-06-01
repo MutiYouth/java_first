@@ -3,9 +3,7 @@ package com.weng.aop;
 import java.util.Arrays;
 import org.aspectj.lang.JoinPoint;
 
-/**
- * Created by hisenyuan on 2017/7/26 at 16:43.
- */
+
 public class GetMethodInfoHandler {
   public void getInfo(JoinPoint joinPoint) {
     System.out.println();

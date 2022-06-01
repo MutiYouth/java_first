@@ -3,9 +3,7 @@ package com.weng.aop;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * Created by hisenyuan on 2017/7/26 at 15:53.
- */
+
 public class TimeHandler {
   /**
    * 打印时间

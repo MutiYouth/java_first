@@ -1,9 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
-  Created by IntelliJ IDEA.
-  User: Administrator
-  Date: 2017/4/6
-  Time: 20:10
   note: 使用bootstrap输出后台返回的requestScope对象
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>

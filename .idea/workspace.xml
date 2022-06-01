@@ -13,50 +13,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a20a050-5b59-495c-a02f-9f5bdebbf3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/java/com/weng/web/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/java/com/weng/web/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/ssm_bs_v1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/ssm_bs_v1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/sql/booksystem.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/sql/booksystem.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/test/com/weng/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/test/com/weng/test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/test/com/weng/test/BookDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/test/com/weng/test/BookDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/test/com/weng/test/BookServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/test/com/weng/test/BookServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/java/com/weng/dao/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/java/com/weng/dao/RedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/java/com/weng/dao/RedisCacheTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/java/com/weng/dao/RedisCacheTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/test/com/weng/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/test/com/weng/test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/test/com/weng/test/BookDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/test/com/weng/test/BookDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/test/com/weng/test/BookServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/test/com/weng/test/BookServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/test/com/weng/test/MyBatisCacheSecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/test/com/weng/test/MyBatisCacheSecondTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/aop/GetMethodInfoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/aop/GetMethodInfoHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/aop/TimeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/aop/TimeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/dao/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/dao/RedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/dao/RedisCacheTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/dao/RedisCacheTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/dao/form/AppointmentForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/dao/form/AppointmentForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/service/AppointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/service/AppointmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/service/impl/AppointmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/service/impl/AppointmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/web/AppointmengtController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/web/AppointmengtController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/web/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/web/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/ssm_bs_v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/ssm_bs_v2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/sql/booksystem.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/sql/booksystem.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/aop/GetMethodInfoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/aop/GetMethodInfoHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/aop/TimeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/aop/TimeHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/contains/CommonEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/contains/CommonEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/dto/UserInfoLoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/dto/UserInfoLoginDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/JWTInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/JWTInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/AppointmentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/AppointmentRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/CommonRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/CommonRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/UserLoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/response/CommonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/response/CommonResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/response/UserLoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/response/UserLoginResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/CookieUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/JWTUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/MD5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/AppointmengtController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/AppointmengtController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/UserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/RedisCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/RedisCacheTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/RedisCacheTransfer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/filter/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/filter/CorsFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/filter/JWTCheckInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/filter/JWTCheckInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/AppointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/AppointmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/UserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/AppointmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/AppointmentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/test/AppointmentServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/test/AppointmentServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/test/AppointmentServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/test/AppointmentServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/test/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/test/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/test/UserDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -545,7 +531,7 @@
       <workItem from="1653987507952" duration="895000" />
       <workItem from="1653988426575" duration="14149000" />
       <workItem from="1654017083228" duration="147000" />
-      <workItem from="1654052218990" duration="1637000" />
+      <workItem from="1654052218990" duration="1965000" />
     </task>
     <task id="LOCAL-00001" summary="feat, init">
       <created>1653974720231</created>
@@ -589,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654013904668</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix, ssm_bs_v3, can be use">
+      <created>1654053906485</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654053906485</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +608,8 @@
     <MESSAGE value="fix, ssm_bs_v0 for use tomcat" />
     <MESSAGE value="feat, add readme" />
     <MESSAGE value="fix, ssm_bs_v1, can be use" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix, ssm_bs_v1, can be use" />
+    <MESSAGE value="fix, ssm_bs_v3, can be use" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix, ssm_bs_v3, can be use" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -627,7 +621,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/web/BookController.java</url>
-          <line>31</line>
+          <line>29</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

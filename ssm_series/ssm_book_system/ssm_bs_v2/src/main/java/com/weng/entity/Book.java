@@ -4,7 +4,6 @@ import java.io.Serializable;
 
 /**
  * 图书实体类，需要实现Serializable接口以便存放在redis中
- * Created by weng on 17-4-24.
  */
 public class Book implements Serializable {
   private long bookId;

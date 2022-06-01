@@ -8,9 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
-/**
- * Created by hisenyuan on 2017/5/3 at 19:41.
- */
+
 public class BookDaoTest extends BaseTest {
 
   private Logger logger = LoggerFactory.getLogger(this.getClass());

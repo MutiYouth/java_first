@@ -2,9 +2,7 @@ package com.weng.dao.form;
 
 import com.weng.entity.Appointment;
 
-/**
- * Created by hisenyuan on 2017/8/2 at 10:54.
- */
+
 public class AppointmentForm extends Appointment {
   private String holdDay;
 

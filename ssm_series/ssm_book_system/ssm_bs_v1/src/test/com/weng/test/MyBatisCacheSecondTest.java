@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * redis缓存测试类
- * Created by hisenyuan on 2017/5/18 at 16:10.
  */
 public class MyBatisCacheSecondTest extends BookDaoTest {
 
