@@ -1,9 +1,6 @@
 package com.weng.bean.dto;
 
-/**
- * Created by weng on 17-8-26.
- * E-mail: hisenyuan@gmail.com
- */
+
 public class UserInfoLoginDto {
 
   private String name;

@@ -1,9 +1,6 @@
 package com.weng.bean.entity;
 
-/**
- * Created by weng on 17-8-27.
- * E-mail: hisenyuan@gmail.com
- */
+
 public class JWTInfo {
   private String username;
   private String password;

@@ -1,9 +1,6 @@
 package com.weng.bean.response;
 
-/**
- * Created by weng on 17-8-26.
- * E-mail: hisenyuan@gmail.com
- */
+
 public class CommonResponse {
 
   private int resCode;

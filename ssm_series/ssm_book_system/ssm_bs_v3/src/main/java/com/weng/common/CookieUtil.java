@@ -6,10 +6,7 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Created by weng on 17-8-26.
- * E-mail: hisenyuan@gmail.com
- */
+
 public class CookieUtil {
 
   /**

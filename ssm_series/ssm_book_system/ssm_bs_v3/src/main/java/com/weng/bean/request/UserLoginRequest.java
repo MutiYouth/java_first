@@ -1,9 +1,6 @@
 package com.weng.bean.request;
 
-/**
- * Created by weng on 17-8-26.
- * E-mail: hisenyuan@gmail.com
- */
+
 public class UserLoginRequest {
   private String name;
   private String pwd;

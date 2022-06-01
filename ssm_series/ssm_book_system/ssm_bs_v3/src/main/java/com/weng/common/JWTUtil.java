@@ -12,9 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 import org.joda.time.DateTime;
 
-/**
- * Created by hisenyuan on 2017/8/17 at 11:09.
- */
+
 public class JWTUtil {
 
 

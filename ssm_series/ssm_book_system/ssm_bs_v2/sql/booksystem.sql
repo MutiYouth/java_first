@@ -179,5 +179,5 @@ CREATE TABLE `user` (
 -- ----------------------------
 -- Records of user
 -- ----------------------------
-INSERT INTO `user` VALUES ('2', 'HiSEN', '13820080808', '1234', '20080808');
-INSERT INTO `user` VALUES ('6', '阿星', '13820080001', '北京市朝阳区', '20080001');
+INSERT INTO `user` VALUES ('2', 'weng', '13820080808', '1234', '20080808');
+INSERT INTO `user` VALUES ('6', '张小静', '13820080001', '北京市朝阳区', '20080001');

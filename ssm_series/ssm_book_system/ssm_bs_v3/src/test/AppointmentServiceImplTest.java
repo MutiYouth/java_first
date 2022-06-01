@@ -3,9 +3,7 @@ import com.weng.service.AppointmentService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-/**
- * Created by hisenyuan on 2017/8/2 at 11:03.
- */
+
 public class AppointmentServiceImplTest extends BaseTest {
 
   @Autowired

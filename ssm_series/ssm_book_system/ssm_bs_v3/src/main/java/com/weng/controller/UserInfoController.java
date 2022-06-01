@@ -22,10 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-/**
- * Created by weng on 17-8-26.
- * E-mail: hisenyuan@gmail.com
- */
+
 @Controller
 public class UserInfoController {
     private Logger log = LoggerFactory.getLogger(this.getClass());
@@ -42,11 +39,15 @@ public class UserInfoController {
         log.info("[UserInfoController] - [login] 入参-> " + request.toString());
         UserLoginResponse login = userInfoService.login(request);
         log.info("[UserInfoController] - [login] 出参-> " + login.toString());
-//    // 放置cookies
-//    Map<String,String> map = new HashMap<String, String>();
-//    map.put("jwt",login.getJwt());
-//    map.put("name",login.getName());
-//    CookieUtil.addCookieMap(res,map);
+
+        /*
+        // 放置cookies
+        Map<String, String> map = new HashMap<String, String>();
+        map.put("jwt", login.getJwt());
+        map.put("name", login.getName());
+        CookieUtil.addCookieMap(res, map);
+        */
+
         return JSON.toJSONString(login);
     }
 

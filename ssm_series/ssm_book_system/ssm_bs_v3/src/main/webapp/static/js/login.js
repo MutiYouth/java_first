@@ -1,11 +1,9 @@
-/**
- * Created by weng on 17-8-26.
- */
+
 var frm = $('#form');
 frm.submit(function (ev) {
   $.ajax({
     type: "post",
-    url: "http://localhost:8074/login",
+    url: "http://localhost:8090/ssm_bs_v3_we/login",
     data: frm.serialize(),
     success:function(data) {
       console.log(data)

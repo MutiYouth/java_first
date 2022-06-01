@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.7.17, for Linux (x86_64)
 --
--- Host: 127.0.0.1    Database: booksystem
+-- Host: 127.0.0.1    Database: test_ssm
 -- ------------------------------------------------------
 -- Server version	5.7.17-1
 
@@ -94,7 +94,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (2,'HiSEN','13820080808','1234','20080808'),(6,'阿星','13820080001','北京市朝阳区','20080001');
+INSERT INTO `user` VALUES (2,'weng','13820080808','1234','20080808'),(6,'张小静','13820080001','浙江省杭州市','20080001');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -126,7 +126,7 @@ CREATE TABLE `user_info` (
 
 LOCK TABLES `user_info` WRITE;
 /*!40000 ALTER TABLE `user_info` DISABLE KEYS */;
-INSERT INTO `user_info` VALUES (1,'weng',1,25,'28-80-51-21-1357-57-120-4292-821873-76-6107',0,'2017-08-27','2017-08-27','2017-08-27',0);
+INSERT INTO `user_info` VALUES (1,'weng',1,25,'-3110-365773-7089-85-6686-3287-1415-12062',0,'2017-08-27','2017-08-27','2017-08-27',0);
 /*!40000 ALTER TABLE `user_info` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

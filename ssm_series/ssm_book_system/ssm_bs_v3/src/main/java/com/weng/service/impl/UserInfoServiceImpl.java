@@ -22,10 +22,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-/**
- * Created by weng on 17-8-26.
- * E-mail: hisenyuan@gmail.com
- */
+
 @Service
 public class UserInfoServiceImpl implements UserInfoService {
     private Logger log = LoggerFactory.getLogger(this.getClass());

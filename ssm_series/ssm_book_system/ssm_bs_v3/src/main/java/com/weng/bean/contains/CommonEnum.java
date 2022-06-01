@@ -2,8 +2,6 @@ package com.weng.bean.contains;
 
 /**
  * 通用的枚举类型
- * Created by weng on 17-8-26.
- * E-mail: hisenyuan@gmail.com
  */
 public enum CommonEnum {
   LOGIN_FAILED(10001, "登录失败,账号或者密码错误"),

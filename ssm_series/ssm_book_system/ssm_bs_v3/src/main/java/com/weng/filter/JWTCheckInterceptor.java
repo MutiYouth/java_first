@@ -13,10 +13,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
-/**
- * Created by weng on 17-8-27.
- * E-mail: hisenyuan@gmail.com
- */
+
 public class JWTCheckInterceptor implements HandlerInterceptor {
 
   private Logger log = LoggerFactory.getLogger(this.getClass());

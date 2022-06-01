@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssm_bs_v3:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BookmarksViewState">
+    <option name="groupLineBookmarks" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a20a050-5b59-495c-a02f-9f5bdebbf3a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/java/com/weng/web/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/java/com/weng/web/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/ssm_bs_v1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/ssm_bs_v1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/sql/booksystem.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/sql/booksystem.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/ssm_bs_v2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/ssm_bs_v2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/sql/booksystem.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/sql/booksystem.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/aop/GetMethodInfoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/aop/GetMethodInfoHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/aop/TimeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/aop/TimeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/contains/CommonEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/contains/CommonEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/dto/UserInfoLoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/dto/UserInfoLoginDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/JWTInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/JWTInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/AppointmentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/AppointmentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/CommonRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/CommonRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/UserLoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/response/CommonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/response/CommonResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/response/UserLoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/response/UserLoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/JWTUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/AppointmengtController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/AppointmengtController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/RedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/RedisCacheTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/RedisCacheTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/filter/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/filter/CorsFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/filter/JWTCheckInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/filter/JWTCheckInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/AppointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/AppointmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/AppointmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/AppointmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/test/AppointmentServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/test/AppointmentServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/test/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/test/BaseTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Pros\IDE\Cache\.m2\repository" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <scope name="Git Scope" pattern="" />
+  </component>
+  <component name="ProjectId" id="29us7EDGb8zF7Ch70z9yYzWSNLv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "E:/Learns/Java/Projs/220531_java_first/sb_series/sb_hello",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.35625",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "ddf89695f914aae4b0c2531ab092ff68"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "f62f47f1-d415-43c0-813d-a8698e4e39b6",
+      "f62f47f1-d415-43c0-813d-a8698e4e39b6/schema/\"test_ssm\""
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Tomcat Server.ssm_bs_v3">
+    <configuration name="ssm_bs_v0_sql" type="DatabaseScript" editBeforeRun="true" temporary="true">
+      <script-file value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/sql/booksystem.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="f62f47f1-d415-43c0-813d-a8698e4e39b6" namespace="schema/&quot;test_ssm&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ssm_bs_v2_sql" type="DatabaseScript" editBeforeRun="true" temporary="true">
+      <script-file value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/sql/booksystem.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="f62f47f1-d415-43c0-813d-a8698e4e39b6" namespace="schema/&quot;test_ssm&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ssm_bs_v3_sql" type="DatabaseScript" editBeforeRun="true" temporary="true">
+      <script-file value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/sql/booksystem.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="f62f47f1-d415-43c0-813d-a8698e4e39b6" namespace="schema/&quot;test_ssm&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sb_curd" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="sb">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <module name="sb_curd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weng.sb_curd.SbCurdApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sb_hello" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="sb">
+      <option name="ACTIVE_PROFILES" />
+      <module name="sb_hello" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.weng.test_simple_app.TestSimpleAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ssm_bs_v0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm_bs" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ssm_bs_v0:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_bs_v0_we" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="dc033a3b-e27c-42a8-8fff-38e449c433eb" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56394" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm_bs_v0:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="ssm_bs_v1" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm_bs" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ssm_bs_v1:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_bs_v1_we" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="328fa05e-267a-4ea6-bbaf-75e0370824ba" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62493" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm_bs_v1:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="ssm_bs_v2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm_bs" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ssm_bs_v2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_bs_v2_we" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="3b1ea924-056e-4e56-9317-e0476b437f6e" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62493" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm_bs_v2:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="ssm_bs_v3" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm_bs" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ssm_bs_v3:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_bs_v3_we" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="121def81-7774-4b9a-b407-3e9e6721fc10" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62493" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm_bs_v3:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Database Script.ssm_bs_v3_sql" />
+      <item itemvalue="Database Script.ssm_bs_v2_sql" />
+      <item itemvalue="Database Script.ssm_bs_v0_sql" />
+      <item itemvalue="Spring Boot.sb_curd" />
+      <item itemvalue="Spring Boot.sb_hello" />
+      <item itemvalue="Tomcat Server.ssm_bs_v0" />
+      <item itemvalue="Tomcat Server.ssm_bs_v1" />
+      <item itemvalue="Tomcat Server.ssm_bs_v2" />
+      <item itemvalue="Tomcat Server.ssm_bs_v3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.ssm_bs_v3_sql" />
+        <item itemvalue="Database Script.ssm_bs_v2_sql" />
+        <item itemvalue="Database Script.ssm_bs_v0_sql" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a20a050-5b59-495c-a02f-9f5bdebbf3a0" name="Changes" comment="" />
+      <created>1653974140428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653974140428</updated>
+      <workItem from="1653974142699" duration="1258000" />
+      <workItem from="1653982212931" duration="1746000" />
+      <workItem from="1653987393597" duration="80000" />
+      <workItem from="1653987507952" duration="895000" />
+      <workItem from="1653988426575" duration="14149000" />
+      <workItem from="1654017083228" duration="147000" />
+      <workItem from="1654052218990" duration="1637000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat, init">
+      <created>1653974720231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653974720231</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat, integration youth_blog2">
+      <created>1653982263971</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653982263971</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix, sb_hello">
+      <created>1653991264764</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653991264764</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix, ssm_bs_v0 for use tomcat">
+      <created>1653994546490</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653994546490</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat, add readme">
+      <created>1653994736172</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653994736172</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix, ssm_bs_v1, can be use">
+      <created>1654013904668</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654013904668</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="feat, init" />
+    <MESSAGE value="feat, integration youth_blog2" />
+    <MESSAGE value="fix, sb_hello" />
+    <MESSAGE value="fix, ssm_bs_v0 for use tomcat" />
+    <MESSAGE value="feat, add readme" />
+    <MESSAGE value="fix, ssm_bs_v1, can be use" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix, ssm_bs_v1, can be use" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sb_series/sb_curd/src/main/java/com/weng/sb_curd/controller/BlogController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/java/com/weng/web/BookController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/java/com/weng/web/BookController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/UserInfoController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/UserInfoController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/UserInfoController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.nio.charset.MalformedInputException" package="java.nio.charset" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -3,10 +3,7 @@ package com.weng.common;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-/**
- * Created by weng on 17-8-26.
- * E-mail: hisenyuan@gmail.com
- */
+
 public class MD5Util {
 
   public static String toMd5(String str) {

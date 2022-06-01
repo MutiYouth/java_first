@@ -3,9 +3,7 @@ package com.weng.service;
 import com.weng.bean.entity.Book;
 import java.util.List;
 
-/**
- * Created by weng on 17-4-24.
- */
+
 public interface BookService {
 
   /**
