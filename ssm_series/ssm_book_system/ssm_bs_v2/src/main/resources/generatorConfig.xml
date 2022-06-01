@@ -9,9 +9,9 @@
 
   <context id="mysqlgenerator" targetRuntime="MyBatis3">
 
-    <jdbcConnection connectionURL="jdbc:mysql://127.0.0.1:3306/ssm_basis?characterEncoding=utf8"
+    <jdbcConnection connectionURL="jdbc:mysql://127.0.0.1:3306/test_ssm?characterEncoding=utf8"
       driverClass="com.mysql.jdbc.Driver"
-      password="hhch2018"
+      password="cheetah2019"
       userId="root"/>
     <!--生成Model(实体类，与数据库字段对应的bean)类存放位置-->
     <javaModelGenerator targetPackage="com.weng.entity" targetProject="src/main/java">

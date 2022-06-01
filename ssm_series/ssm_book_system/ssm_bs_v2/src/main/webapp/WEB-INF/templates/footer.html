@@ -1,14 +1,14 @@
 <!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org">
+      xmlns:th="http://www.thymeleaf.org" lang="">
 <body>
 <!--定义了一个叫做copyright的片段，并带有两个参数                     -->
-<div th:fragment="copyright (start,now)">
+<div th:fragment="copyright (start, now)">
     <!--使用参数-->
     <p th:text="'© ' + ${start} + ' - ' + ${now}  + ' WNEG'">...</p>
     <!--写死-->
     <!--
-    © 2016 - 2018
+    © 2016 - 2022
     -->
 </div>
 </body>

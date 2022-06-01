@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="theme_youth_blog2:war exploded" />
+      <artifact name="ssm_bs_v2:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -13,25 +13,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a20a050-5b59-495c-a02f-9f5bdebbf3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/CommonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/common/500.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/sql/blog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/sql/blog.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/linkForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/linkForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/articleDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/articleDetail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/common/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/common/error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/css/evalute.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/css/evalute.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/js/admin/linkList.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/js/admin/linkList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/js/articleDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/js/articleDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/theme_youth_blog2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/theme_youth_blog2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/readingList.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/readingList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +45,21 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://D:/Pros/IDE/Java/jdk1.8.0_271/src.zip!/java/lang/String.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -81,6 +90,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -96,7 +106,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.35625",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "spring.configuration.checksum": "ddf89695f914aae4b0c2531ab092ff68"
   },
   "keyToStringList": {
@@ -114,7 +124,7 @@
       <recent name="E:\Learns\Java\Projs\220531_java_first\themes\180708_Youth_Blog2\src\main\webapp\WEB-INF\jsp\common" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.theme_youth_blog2">
+  <component name="RunManager" selected="Tomcat Server.ssm_bs_v2">
     <configuration name="ssm_bs_v0_sql" type="DatabaseScript" editBeforeRun="true" temporary="true">
       <script-file value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/sql/booksystem.sql" />
       <script-mode>FILE</script-mode>
@@ -632,7 +642,11 @@
       <workItem from="1653988426575" duration="14149000" />
       <workItem from="1654017083228" duration="147000" />
       <workItem from="1654052218990" duration="9515000" />
-      <workItem from="1654065333023" duration="10677000" />
+      <workItem from="1654065333023" duration="10873000" />
+      <workItem from="1654087623855" duration="24000" />
+      <workItem from="1654087672727" duration="419000" />
+      <workItem from="1654088101100" duration="785000" />
+      <workItem from="1654089316482" duration="2033000" />
     </task>
     <task id="LOCAL-00001" summary="feat, init">
       <created>1653974720231</created>
@@ -718,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654065162951</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix, theme_youth_blog2, ok, can be use normally">
+      <created>1654079062711</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1654079062711</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -750,7 +771,8 @@
     <MESSAGE value="style, set proj test dir" />
     <MESSAGE value="style, reformat ssm_bs_v3" />
     <MESSAGE value="fix, theme_youth_blog2 step1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix, theme_youth_blog2 step1" />
+    <MESSAGE value="fix, theme_youth_blog2, ok, can be use normally" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix, theme_youth_blog2, ok, can be use normally" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -794,16 +816,6 @@
           <url>file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/UserInfoController.java</url>
           <line>86</line>
           <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/ArticleController.java</url>
-          <line>275</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/ArticleController.java</url>
-          <line>277</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.nio.charset.MalformedInputException" package="java.nio.charset" />
