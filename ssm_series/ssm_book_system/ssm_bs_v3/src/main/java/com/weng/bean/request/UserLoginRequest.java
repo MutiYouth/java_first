@@ -2,30 +2,30 @@ package com.weng.bean.request;
 
 
 public class UserLoginRequest {
-  private String name;
-  private String pwd;
+	private String name;
+	private String pwd;
 
-  public String getName() {
-    return name;
-  }
+	public String getName() {
+		return name;
+	}
 
-  public void setName(String name) {
-    this.name = name;
-  }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-  public String getPwd() {
-    return pwd;
-  }
+	public String getPwd() {
+		return pwd;
+	}
 
-  public void setPwd(String pwd) {
-    this.pwd = pwd;
-  }
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
 
-  @Override
-  public String toString() {
-    return "UserLoginRequest{" +
-        "name='" + name + '\'' +
-        ", pwd='" + pwd + '\'' +
-        '}';
-  }
+	@Override
+	public String toString() {
+		return "UserLoginRequest{" +
+				"name='" + name + '\'' +
+				", pwd='" + pwd + '\'' +
+				'}';
+	}
 }

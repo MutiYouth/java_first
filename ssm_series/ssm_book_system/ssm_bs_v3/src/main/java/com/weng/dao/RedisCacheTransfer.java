@@ -6,8 +6,8 @@ import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 
 public class RedisCacheTransfer {
 
-  @Autowired
-  public void setJedisConnectionFactory(JedisConnectionFactory jedisConnectionFactory) {
-    RedisCache.setJedisConnectionFactory(jedisConnectionFactory);
-  }
+	@Autowired
+	public void setJedisConnectionFactory(JedisConnectionFactory jedisConnectionFactory) {
+		RedisCache.setJedisConnectionFactory(jedisConnectionFactory);
+	}
 }

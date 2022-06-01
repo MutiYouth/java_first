@@ -3,40 +3,40 @@ package com.weng.bean.dto;
 
 public class UserInfoLoginDto {
 
-  private String name;
-  private String pwd;
-  private Integer userState;
-  private Integer userType;
+	private String name;
+	private String pwd;
+	private Integer userState;
+	private Integer userType;
 
-  public String getName() {
-    return name;
-  }
+	public String getName() {
+		return name;
+	}
 
-  public void setName(String name) {
-    this.name = name;
-  }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-  public String getPwd() {
-    return pwd;
-  }
+	public String getPwd() {
+		return pwd;
+	}
 
-  public void setPwd(String pwd) {
-    this.pwd = pwd;
-  }
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
 
-  public Integer getUserState() {
-    return userState;
-  }
+	public Integer getUserState() {
+		return userState;
+	}
 
-  public void setUserState(Integer userState) {
-    this.userState = userState;
-  }
+	public void setUserState(Integer userState) {
+		this.userState = userState;
+	}
 
-  public Integer getUserType() {
-    return userType;
-  }
+	public Integer getUserType() {
+		return userType;
+	}
 
-  public void setUserType(Integer userType) {
-    this.userType = userType;
-  }
+	public void setUserType(Integer userType) {
+		this.userType = userType;
+	}
 }

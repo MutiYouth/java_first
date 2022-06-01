@@ -1,10 +1,13 @@
+let url_base = "http://localhost:8090/ssm_bs_v3_we/"
+let url_root = url_base + "seckill/"
+
 $(document).ready(function () {
 
     var thisUrl = document.URL;
     var id = thisUrl.split('=')[1];
     $.ajax({
         type: "GET",
-        url: "http://localhost:8074/BS_V3/seckill/" + id + "/detail",
+        url: url_root + id + "/detail",
         dataType: 'json',
         global: "false",
         success: function (data) {
@@ -28,23 +31,20 @@ $(document).ready(function () {
         }
     })
 });
+
 var seckill_m = {
     Url:{
-        now:'http://localhost:8080/seckill/time/now/',
+        now: url_base + 'time/now/',
         exposer:function(seckillId){
-            return 'http://localhost:8080/seckill/'+seckillId+'/exposer/';
+            return url_root+seckillId+'/exposer/';
         },
         execution:function(seckillId,md5,phoneCookie){
-            return 'http://localhost:8080/seckill/'+seckillId+'/'+md5+'/'+phoneCookie+'/execution'
+            return url_root+seckillId+'/'+md5+'/'+phoneCookie+'/execution'
         }
     },
 
     validatePhone: function (phoneNum) {
-        if (phoneNum && phoneNum.length == 11 && !isNaN(phoneNum)) {
-            return true;
-        } else {
-            return false;
-        }
+        return phoneNum && phoneNum.length === 11 && !isNaN(phoneNum);
     },
     detail: {
         //详情页初始化

@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class UserInfoController {
-    private Logger log = LoggerFactory.getLogger(this.getClass());
+    private final Logger log = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     private UserInfoService userInfoService;
@@ -40,13 +40,13 @@ public class UserInfoController {
         UserLoginResponse login = userInfoService.login(request);
         log.info("[UserInfoController] - [login] 出参-> " + login.toString());
 
-        /*
+
         // 放置cookies
         Map<String, String> map = new HashMap<String, String>();
         map.put("jwt", login.getJwt());
         map.put("name", login.getName());
         CookieUtil.addCookieMap(res, map);
-        */
+
 
         return JSON.toJSONString(login);
     }
@@ -82,8 +82,10 @@ public class UserInfoController {
             String value = req.getHeader(key);
             System.out.println(key + "\t" + value);
         }
+
         // 取出jwt中的加密信息,与数据库比对,看是否正确
         Boolean aBoolean = userInfoService.checkJWT(req);
+
         return aBoolean ? "成功" : "失败";
     }
 }

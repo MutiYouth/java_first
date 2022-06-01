@@ -5,8 +5,10 @@
 <h2>Hello World!</h2>
 
 <br/><br/><br/><br/>
+
+图书系统：<a href="<%=appPath%>/static/html/login.html">Login</a>、<a href="<%=appPath%>/static/html/register.html">Register</a><br/>
+账号/密码: weng/123456<br/><br/>
+
 我的博客：<a href="https://www.cnblogs.com/arxive/" target="_blank">博客园</a><br/>
-图书系统：<a href="<%=appPath%>/static/html/login.html">SSM Book System V3</a><br/>
-账号/密码: weng/123456<br/>
 </body>
 </html>

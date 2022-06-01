@@ -4,9 +4,9 @@ import java.util.Date;
 
 
 public class CommonRequest {
-  private Date time = new Date();
+	private Date time = new Date();
 
-  public Date getTime() {
-    return time;
-  }
+	public Date getTime() {
+		return time;
+	}
 }

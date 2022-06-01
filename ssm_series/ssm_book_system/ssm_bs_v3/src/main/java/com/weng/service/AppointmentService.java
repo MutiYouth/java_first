@@ -5,6 +5,7 @@ import com.weng.bean.entity.Appointment;
 
 
 public interface AppointmentService {
-  int appoint(AppointmentRequest record);
-  int returnBook(Appointment record);
+	int appoint(AppointmentRequest record);
+
+	int returnBook(Appointment record);
 }

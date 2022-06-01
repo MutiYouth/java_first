@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $.ajax({
     type: "GET",
-    url: "http://localhost:8074/book/list/",
+    url: "http://localhost:8090/ssm_bs_v3_we/book/list/",
     dataType: 'json',
     global: "false",
     success: function (data) {

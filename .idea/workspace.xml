@@ -12,7 +12,51 @@
     <option name="groupLineBookmarks" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a20a050-5b59-495c-a02f-9f5bdebbf3a0" name="Changes" comment="" />
+    <list default="true" id="9a20a050-5b59-495c-a02f-9f5bdebbf3a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/aop/GetMethodInfoHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/aop/GetMethodInfoHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/aop/TimeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/aop/TimeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/contains/CommonEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/contains/CommonEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/dto/UserInfoLoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/dto/UserInfoLoginDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/Appointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/AppointmentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/AppointmentExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/JWTInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/JWTInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/UserInfoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/entity/UserInfoExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/AppointmentRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/AppointmentRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/CommonRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/CommonRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/UserLoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/request/UserLoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/response/CommonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/response/CommonResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/response/UserLoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/bean/response/UserLoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/JWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/JWTUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/common/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/AppointmengtController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/AppointmengtController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/UserInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/AppointmentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/AppointmentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/RedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/RedisCacheTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/RedisCacheTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/dao/UserInfoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/filter/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/filter/CorsFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/filter/JWTCheckInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/filter/JWTCheckInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/AppointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/AppointmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/AppointmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/AppointmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/service/impl/UserInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/html/bookList.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/html/bookList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/html/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/html/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/bookList.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/bookList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/static/js/register.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +112,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.35625",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
     "spring.configuration.checksum": "ddf89695f914aae4b0c2531ab092ff68"
   },
   "keyToStringList": {
@@ -81,7 +125,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestSimpleAppApplicationTests.contextLoads">
+  <component name="RunManager" selected="Tomcat Server.ssm_bs_v3">
     <configuration name="ssm_bs_v0_sql" type="DatabaseScript" editBeforeRun="true" temporary="true">
       <script-file value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/sql/booksystem.sql" />
       <script-mode>FILE</script-mode>
@@ -99,22 +143,6 @@
       <script-mode>FILE</script-mode>
       <data-source id="f62f47f1-d415-43c0-813d-a8698e4e39b6" namespace="schema/&quot;test_ssm&quot;" />
       <method v="2" />
-    </configuration>
-    <configuration name="TestSimpleAppApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sb_hello" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.weng.test_simple_app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.weng.test_simple_app" />
-      <option name="MAIN_CLASS_NAME" value="com.weng.test_simple_app.TestSimpleAppApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="sb_curd" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="sb">
       <option name="ACTIVE_PROFILES" />
@@ -397,6 +425,7 @@
       </method>
     </configuration>
     <configuration name="ssm_bs_v3" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm_bs" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="ssm_bs_v3:war exploded">
@@ -487,7 +516,6 @@
       <item itemvalue="Database Script.ssm_bs_v3_sql" />
       <item itemvalue="Database Script.ssm_bs_v2_sql" />
       <item itemvalue="Database Script.ssm_bs_v0_sql" />
-      <item itemvalue="JUnit.TestSimpleAppApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.sb_curd" />
       <item itemvalue="Spring Boot.sb_hello" />
       <item itemvalue="Tomcat Server.ssm_bs_v0" />
@@ -497,7 +525,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestSimpleAppApplicationTests.contextLoads" />
         <item itemvalue="Database Script.ssm_bs_v3_sql" />
         <item itemvalue="Database Script.ssm_bs_v2_sql" />
         <item itemvalue="Database Script.ssm_bs_v0_sql" />
@@ -518,7 +545,7 @@
       <workItem from="1653987507952" duration="895000" />
       <workItem from="1653988426575" duration="14149000" />
       <workItem from="1654017083228" duration="147000" />
-      <workItem from="1654052218990" duration="4580000" />
+      <workItem from="1654052218990" duration="7541000" />
     </task>
     <task id="LOCAL-00001" summary="feat, init">
       <created>1653974720231</created>
@@ -583,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654056360392</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="style, set proj test dir">
+      <created>1654057311819</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1654057311819</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +646,8 @@
     <MESSAGE value="fix, ssm_bs_v3, can be use" />
     <MESSAGE value="refactor, remove unnecessary comments" />
     <MESSAGE value="doc, update ssm_bs_v3, ssm_bs_v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="doc, update ssm_bs_v3, ssm_bs_v2" />
+    <MESSAGE value="style, set proj test dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="style, set proj test dir" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -647,11 +682,24 @@
           <line>40</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/UserInfoController.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/java/com/weng/controller/UserInfoController.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.nio.charset.MalformedInputException" package="java.nio.charset" />
           <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/220531_java_first$ssm_bs_v3.ic" NAME="ssm_bs_v3 Coverage Results" MODIFIED="1654059601886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
