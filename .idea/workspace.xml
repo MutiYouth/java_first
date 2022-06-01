@@ -12,11 +12,7 @@
     <option name="groupLineBookmarks" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a20a050-5b59-495c-a02f-9f5bdebbf3a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="9a20a050-5b59-495c-a02f-9f5bdebbf3a0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +81,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Tomcat Server.ssm_bs_v3">
+  <component name="RunManager" selected="JUnit.TestSimpleAppApplicationTests.contextLoads">
     <configuration name="ssm_bs_v0_sql" type="DatabaseScript" editBeforeRun="true" temporary="true">
       <script-file value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/sql/booksystem.sql" />
       <script-mode>FILE</script-mode>
@@ -103,6 +99,22 @@
       <script-mode>FILE</script-mode>
       <data-source id="f62f47f1-d415-43c0-813d-a8698e4e39b6" namespace="schema/&quot;test_ssm&quot;" />
       <method v="2" />
+    </configuration>
+    <configuration name="TestSimpleAppApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sb_hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weng.test_simple_app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.weng.test_simple_app" />
+      <option name="MAIN_CLASS_NAME" value="com.weng.test_simple_app.TestSimpleAppApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="sb_curd" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="sb">
       <option name="ACTIVE_PROFILES" />
@@ -475,6 +487,7 @@
       <item itemvalue="Database Script.ssm_bs_v3_sql" />
       <item itemvalue="Database Script.ssm_bs_v2_sql" />
       <item itemvalue="Database Script.ssm_bs_v0_sql" />
+      <item itemvalue="JUnit.TestSimpleAppApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.sb_curd" />
       <item itemvalue="Spring Boot.sb_hello" />
       <item itemvalue="Tomcat Server.ssm_bs_v0" />
@@ -484,6 +497,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSimpleAppApplicationTests.contextLoads" />
         <item itemvalue="Database Script.ssm_bs_v3_sql" />
         <item itemvalue="Database Script.ssm_bs_v2_sql" />
         <item itemvalue="Database Script.ssm_bs_v0_sql" />
@@ -504,7 +518,7 @@
       <workItem from="1653987507952" duration="895000" />
       <workItem from="1653988426575" duration="14149000" />
       <workItem from="1654017083228" duration="147000" />
-      <workItem from="1654052218990" duration="3941000" />
+      <workItem from="1654052218990" duration="4580000" />
     </task>
     <task id="LOCAL-00001" summary="feat, init">
       <created>1653974720231</created>
@@ -562,7 +576,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654054256681</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="doc, update ssm_bs_v3, ssm_bs_v2">
+      <created>1654056360392</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1654056360392</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -590,7 +611,8 @@
     <MESSAGE value="fix, ssm_bs_v1, can be use" />
     <MESSAGE value="fix, ssm_bs_v3, can be use" />
     <MESSAGE value="refactor, remove unnecessary comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor, remove unnecessary comments" />
+    <MESSAGE value="doc, update ssm_bs_v3, ssm_bs_v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc, update ssm_bs_v3, ssm_bs_v2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
