@@ -35,8 +35,8 @@ layui.use(['table','layer'], function(){
                 content: ['admin/toLinkForm','no'],
                 scrollbar: false
             });
-        }
-        ,changeLink: function(){ //修改
+        },
+        changeLink: function(){ //修改
             var checkStatus = table.checkStatus('linkList')
                 ,data = checkStatus.data;
             if(data.length != 1){
@@ -54,8 +54,9 @@ layui.use(['table','layer'], function(){
                 content: ['admin/toLinkForm?linkId=' + data[0].id,'no'],
                 scrollbar: false
             });
-        }
-        ,delLink: function(){ //删除
+        },
+
+        delLink: function(){ //删除
             var checkStatus = table.checkStatus('linkList')
                 ,data = checkStatus.data;
             if(data.length <= 0){
@@ -86,8 +87,9 @@ layui.use(['table','layer'], function(){
                     }
                 });
             });
-        }
-        ,reload: function(){
+        },
+
+        reload: function(){
             //执行重载
             tableIns.reload();
         }

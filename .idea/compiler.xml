@@ -19,10 +19,10 @@
       <module name="sb_curd" target="11" />
       <module name="sb_hello" target="1.8" />
       <module name="ssm_bs_v0" target="1.8" />
-      <module name="ssm_bs_v1" target="1.8" />
-      <module name="ssm_bs_v2" target="1.8" />
-      <module name="ssm_bs_v3" target="1.8" />
-      <module name="theme_youth_blog2" target="1.8" />
+      <module name="ssm_bs_v1" target="1.5" />
+      <module name="ssm_bs_v2" target="1.5" />
+      <module name="ssm_bs_v3" target="1.5" />
+      <module name="theme_youth_blog2" target="1.6" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

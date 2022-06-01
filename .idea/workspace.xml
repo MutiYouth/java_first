@@ -13,20 +13,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a20a050-5b59-495c-a02f-9f5bdebbf3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/plugins/plugins_bk_up_220601.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/common/500.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/sql/blog.sql" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/sql/blog.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/frame/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/frame/controller/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/linkForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/linkForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/articleDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/articleDetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/common/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/common/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/css/evalute.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/css/evalute.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/js/admin/linkList.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/js/admin/linkList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/js/articleDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/js/articleDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/theme_youth_blog2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/theme_youth_blog2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +96,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.35625",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
     "spring.configuration.checksum": "ddf89695f914aae4b0c2531ab092ff68"
   },
   "keyToStringList": {
@@ -91,6 +109,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Learns\Java\Projs\220531_java_first\themes\180708_Youth_Blog2\src\main\webapp\WEB-INF\jsp\common" />
+    </key>
+  </component>
   <component name="RunManager" selected="Tomcat Server.theme_youth_blog2">
     <configuration name="ssm_bs_v0_sql" type="DatabaseScript" editBeforeRun="true" temporary="true">
       <script-file value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/sql/booksystem.sql" />
@@ -608,7 +631,8 @@
       <workItem from="1653987507952" duration="895000" />
       <workItem from="1653988426575" duration="14149000" />
       <workItem from="1654017083228" duration="147000" />
-      <workItem from="1654052218990" duration="9335000" />
+      <workItem from="1654052218990" duration="9515000" />
+      <workItem from="1654065333023" duration="10677000" />
     </task>
     <task id="LOCAL-00001" summary="feat, init">
       <created>1653974720231</created>
@@ -687,7 +711,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654060206106</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix, theme_youth_blog2 step1">
+      <created>1654065162951</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1654065162951</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -718,7 +749,8 @@
     <MESSAGE value="doc, update ssm_bs_v3, ssm_bs_v2" />
     <MESSAGE value="style, set proj test dir" />
     <MESSAGE value="style, reformat ssm_bs_v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="style, reformat ssm_bs_v3" />
+    <MESSAGE value="fix, theme_youth_blog2 step1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix, theme_youth_blog2 step1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -765,8 +797,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/ArticleController.java</url>
-          <line>274</line>
+          <line>275</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/java/com/linn/home/controller/ArticleController.java</url>
+          <line>277</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.nio.charset.MalformedInputException" package="java.nio.charset" />

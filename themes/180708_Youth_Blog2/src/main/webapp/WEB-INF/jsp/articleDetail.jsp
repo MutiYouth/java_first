@@ -10,30 +10,37 @@
     <script type="text/javascript" src="${rc.contextPath}/js/articleDetail.js"></script>
     <script type="text/javascript" src="${rc.contextPath}/plugins/highlight/highlight.pack.js"></script>
 </head>
+
+
 <body>
     <div class="layui-container">
         <div class="fly-panel detail-box">
+
             <h1>${article.title}</h1>
+
             <div class="fly-detail-info">
+
                 <c:if test="${article.isStick == 1}">
                     <span class="layui-badge layui-bg-black">置顶</span>
                 </c:if>
                 <c:if test="${article.commentCount > 1}">
-                    <span class="layui-badge layui-bg-red">精帖</span>
+                    <span class="layui-badge layui-bg-red">精帖</span>&nbsp
                 </c:if>
-                &nbsp&nbsp&nbsp&nbsp
-                <span><i class="layui-icon layui-icon-username"></i>${article.author}</span>&nbsp&nbsp&nbsp&nbsp
-                <span><i class="layui-icon layui-icon-log"></i><fmt:formatDate value="${article.gmtCreate}" pattern="yyyy-MM-dd"/></span>
+
+                <span><i class="layui-icon layui-icon-username"></i> ${article.author}</span> &nbsp&nbsp&nbsp&nbsp
+                <span><i class="layui-icon layui-icon-log"></i> <fmt:formatDate value="${article.gmtCreate}" pattern="yyyy-MM-dd"/></span>
 
                 <span class="fly-list-nums">
                     <a href="#flyReply"><i class="iconfont" title="回答">&#xe60c;</i> ${article.commentCount}</a>
-                    <i class="iconfont" title="人气">&#xe60b;</i> 99999
+                    <i class="iconfont" title="人气">&#xe60b;</i> 99
                 </span>
             </div>
+
             <div class="detail-body photos">
                 ${article.content}
             </div>
         </div>
+
         <div class="fly-panel detail-box">
             <fieldset class="layui-elem-field layui-field-title" style="text-align: center;">
                 <legend>评论</legend>

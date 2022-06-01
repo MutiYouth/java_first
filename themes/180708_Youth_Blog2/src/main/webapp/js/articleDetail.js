@@ -57,7 +57,7 @@ layui.use(['form', 'flow'], function(){
                         "        <input type=\"text\" class=\"layui-input\" name=\"name\" placeholder=\"请输入姓名...\" >\n" +
                         "    </div>\n" +
                         "    <div class=\"layui-input-inline\">\n" +
-                        "        <input type=\"text\" class=\"layui-input\" name=\"contactInfo\" \n" +
+                        "        <input type=\"text\" class=\"layui-input\" style=\" margin-left: 5px \" name=\"contactInfo\" \n" +
                         "               placeholder=\"联系方式...\" >\n" +
                         "    </div>\n" +
                         "</div>" +

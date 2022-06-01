@@ -9,7 +9,7 @@
     <script type="text/javascript" src="${rc.contextPath}/js/admin/linkForm.js"></script>
     <style>
         html body {
-            margin-top: 0px;
+            margin-top: 0;
         }
     </style>
 </head>
@@ -30,6 +30,7 @@
                                value="${link.title}">
                     </div>
                 </div>
+
                 <div class="layui-form-item">
                     <label class="layui-form-label">url</label>
                     <div class="layui-input-block">
@@ -37,17 +38,20 @@
                                value="${link.url}">
                     </div>
                 </div>
+
                 <div class="layui-form-item layui-form-text">
                     <label class="layui-form-label">备注</label>
                     <div class="layui-input-block">
                         <textarea id="remark" name="remark" class="layui-textarea" rows="7">${link.remark}</textarea>
                     </div>
                 </div>
+
                 <div class="layui-form-item">
                     <div class="layui-input-block">
-                        <shiro:hasRole name="admin">
-                            <button class="layui-btn" lay-filter="editLink" lay-submit>提交</button>
-                        </shiro:hasRole>
+
+                        <%--<shiro:hasRole name="admin">--%>
+                        <button class="layui-btn" lay-filter="editLink" lay-submit>提交</button>
+                        <%--</shiro:hasRole>--%>
                     </div>
                 </div>
             </form>

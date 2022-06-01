@@ -59,7 +59,7 @@ public class ArticleController extends BaseController {
      * 前端主页面
      * 默认第一页 每页显示固定条数
      *
-     * @return
+     * @return front main page
      */
     @RequestMapping("/index")
     public String index(Model model) {
@@ -82,7 +82,7 @@ public class ArticleController extends BaseController {
     /**
      * 到文章列表页面
      *
-     * @return
+     * @return page
      */
     @RequestMapping(value = "/toArticleList", method = RequestMethod.GET)
     public String toArticleList(HttpServletRequest servletRequest,Model model) {
@@ -100,6 +100,7 @@ public class ArticleController extends BaseController {
         }
         model.addAttribute("categoryId", categoryId);
         model.addAttribute("date", date);
+
         return "articleList";
     }
 
@@ -265,7 +266,7 @@ public class ArticleController extends BaseController {
         return "contactMe";
     }
 
-    @RequestMapping("/uploadImage")
+    @RequestMapping("admin/uploadImage")
     public void uploadImage(
             @RequestParam(value = "upload", required = false) CommonsMultipartFile file,
             HttpServletRequest request,

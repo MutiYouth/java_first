@@ -128,7 +128,7 @@ CREATE TABLE `blog_user` (
   `email` varchar(32) DEFAULT NULL COMMENT '邮箱',
   `sex` tinyint(1) unsigned DEFAULT NULL COMMENT '性别',
   `city` varchar(32) DEFAULT NULL COMMENT '城市',
-  `avatar` varchar(50) DEFAULT NULL COMMENT '头像地址',
+  `avatar` varchar(100) DEFAULT NULL COMMENT '头像地址',
   `sign_msg` varchar(30) DEFAULT NULL COMMENT '个性签名',
   `gmt_create` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '录入时间',
   `gmt_modified` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '更新时间',
@@ -139,7 +139,7 @@ CREATE TABLE `blog_user` (
 # weng_blog_t1.blog_user
 # weng/abc123456
 INSERT INTO blog_user (user_name,nickname, pass_word,email, sex,city,avatar, sign_msg, gmt_create, gmt_modified) VALUES
-  ('weng','Murphy Liu','31b92710645ada1d26b1c1f07d84a830','xxx@126,com',0,'杭州','/theme_youth_blog2/upload/avatar/weng_avatar.jpg','加油吧，骚年！', '2018-06-14 18:03:19', '2018-06-14 18:11:56');
+  ('weng','Murphy Liu','31b92710645ada1d26b1c1f07d84a830','xxx@126,com',0,'杭州','/theme_youth_blog2_we/upload/avatar/weng_avatar.jpg','加油吧，骚年！', '2018-06-14 18:03:19', '2018-06-14 18:11:56');
 
 
 

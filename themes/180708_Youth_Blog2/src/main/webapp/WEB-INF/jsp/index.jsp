@@ -30,7 +30,9 @@
                 <div class="layui-container">
                     <div class="fly-column-right layui-hide-xs">
                         <div class="layui-form-item">
-                            <input type="text" id="searchContent" name="searchContent" placeholder="请输入标题或作者..." autocomplete="off">
+                            <input type="text"
+                                   style="color: #ffffff; padding: 3px 5px; border:none; border-radius:5px; background-color: rgba(255,255,255,0.3) "
+                                   id="searchContent" name="searchContent" placeholder="请输入标题或作者..." autocomplete="off">
                             <span class="fly-search"><i class="layui-icon"></i></span>
                         </div>
                     </div>
@@ -48,19 +50,23 @@
                 <IFRAME border=0 marginWidth=0 frameSpacing=0 marginHeight=0 src="toArticleList" frameBorder=0
                         noResize scrolling="no" width=100% height=100% vspale="0" id="mainFrame" name="mainFrame"></IFRAME>
         </div>
+
+
         <div class="layui-col-md4">
+
             <%--通知--%>
-            <div class="layui-card">
-                <div class="layui-card-header">${notice.title}</div>
-                <div class="layui-card-body">
-                    <div class="layui-anim layui-anim-rotate">
-                        ${notice.content}<br>
-                        —— 作者：
+            <c:if test="${ notice.title != null || notice.title.trim().length() > 0}">
+                <div class="layui-card">
+                    <div class="layui-card-header">NOTICE: ${notice.title}</div>
+                    <div class="layui-card-body">
+                        <div class="layui-anim layui-anim-rotate">${notice.content}<br>
+                            —— 作者：
                             <c:if test="${notice.author == ''|| notice.author == null}">无</c:if>
                             <c:if test="${notice.author != null && notice.author != ''}">${notice.author}</c:if>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </c:if>
 
             <div class="layui-card">
                 <div class="layui-card-header">分类</div>
@@ -74,6 +80,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="layui-card">
                 <div class="layui-card-header">归档</div>
                 <div class="layui-card-body">
@@ -86,6 +93,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="layui-card fly-link">
                 <div class="layui-card-header">友链</div>
                 <dl class="layui-card-body">
@@ -101,7 +109,7 @@
 
 <div class="fly-footer">
     <p>
-        &copy; 2018 Powered by &middot;
+        &copy; 2022 Powered by &middot;
         <a href="https://github.com/754594774/blog" target="_blank">李难难</a>
         <a href="https://github.com/csunking" target="_blank">WENG</a>
         &middot;<a href="https://www.cnblogs.com/arxive/." target="_blank">Youth Blog</a>

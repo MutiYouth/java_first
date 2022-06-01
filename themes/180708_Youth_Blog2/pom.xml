@@ -158,7 +158,7 @@
 
 
   <build>
-    <finalName>blog</finalName>
+    <finalName>youth_blog2</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

@@ -133,18 +133,4 @@ public class LoginController extends BaseController{
         }
         return "unauth";
     }
-
-    /**
-     * 系统错误页面
-     *
-     * @param model
-     * @return
-     */
-    @RequestMapping(value = "/error", method = RequestMethod.GET)
-    public String toError(Model model)
-    {
-        return "common/error";
-    }
-
-
 }
