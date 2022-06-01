@@ -24,7 +24,7 @@ import java.util.List;
 /**
  * 基础的Controller,所有的Controller必须继承此类
  *
- * @Author:LNN 2017-12-28 下午 1:52
+ * @Author: LNN 2017-12-28 下午 1:52
  */
 public class BaseController
 {
@@ -33,9 +33,9 @@ public class BaseController
      **/
     protected Logger logger = LoggerFactory.getLogger(getClass());
 
+
     /**
      * 输出到请求端
-     *
      * @param response
      * @param content
      */

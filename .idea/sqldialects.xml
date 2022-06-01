@@ -8,5 +8,6 @@
     <file url="file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/resources/mapper/BookMapper.xml" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/sql/booksystem.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/sql/booksystem.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/themes/180708_Youth_Blog2/sql/blog.sql" dialect="MySQL" />
   </component>
 </project>

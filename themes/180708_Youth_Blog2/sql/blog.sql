@@ -3,10 +3,10 @@ SQLyog 企业版 - MySQL GUI v8.14
 MySQL - 5.7.16 : Database - blog
 *********************************************************************
 */
-CREATE DATABASE IF NOT EXISTS test_blog_210216_youth
+CREATE DATABASE IF NOT EXISTS test_youth_blog2
     DEFAULT CHARACTER SET utf8;
 
-use test_blog_210216_youth;
+use test_youth_blog2;
 
 
 /*!40101 SET NAMES utf8 */;
@@ -139,7 +139,7 @@ CREATE TABLE `blog_user` (
 # weng_blog_t1.blog_user
 # weng/abc123456
 INSERT INTO blog_user (user_name,nickname, pass_word,email, sex,city,avatar, sign_msg, gmt_create, gmt_modified) VALUES
-  ('weng','Murphy Liu','31b92710645ada1d26b1c1f07d84a830','xxx@126,com',0,'杭州','/YOUTH_BLOG2/upload/avatar/weng_avatar.jpg','加油吧，骚年！', '2018-06-14 18:03:19', '2018-06-14 18:11:56');
+  ('weng','Murphy Liu','31b92710645ada1d26b1c1f07d84a830','xxx@126,com',0,'杭州','/theme_youth_blog2/upload/avatar/weng_avatar.jpg','加油吧，骚年！', '2018-06-14 18:03:19', '2018-06-14 18:11:56');
 
 
 
