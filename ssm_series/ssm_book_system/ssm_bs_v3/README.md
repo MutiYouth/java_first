@@ -10,10 +10,10 @@ JWT认证流程:
 4. 完成(后续可能需要加上token刷新的动作)
 
 ### 测试方法
-1. 打开 http://localhost:8183/front/html/login.html (端口改为你的)
-2. 账号/密码:hisen/hisen
+1. 打开 `http://localhost:8090/ssm_bs_v3_we/static/html/login.html` (端口、 ssm_bs_v3_we 改为你的)
+2. 账号/密码: `weng/123456`
 3. F12控制台会打印相关token(token有效期一个小时)
-4. 打开 http://localhost:8183/front/html/register.html (端口改为你的)
+4. 打开 `http://localhost:8090/ssm_bs_v3_we/static/html/register.html`
 5. 随便填写,提交
 6. 有response返回成功,说明ok
 
@@ -22,10 +22,14 @@ JWT认证流程:
  
 前台靠ajax去调用,可能还不完善,前段太多东西不熟悉
 
+
+
 ## 数据库问题
-目前数据库文件存放在:com/hisen/dao/sql/booksystem.sql
+目前数据库文件存放在: `sql/booksystem.sql`
 
 本地建立一个名为booksystem的数据库,然后执行这个sql即可
+
+
 
 ## 问题记录bookList.js
 ### 不显示数据，或者js报错
@@ -33,7 +37,7 @@ JWT认证流程:
 ### JavaScript跨域问题
 在做前后端分离的时候，前台js调用后台接口报错如下
 ```
-XMLHttpRequest cannot load http://localhost:8080/seckill/list/.
+XMLHttpRequest cannot load http://localhost:8090/ssm_bs_v3_we/list/.
 No 'Access-Control-Allow-Origin' header is present on the requested resource.
 Origin 'null' is therefore not allowed access. The response had HTTP status code 404.
 ```
@@ -46,6 +50,10 @@ Origin 'null' is therefore not allowed access. The response had HTTP status code
 hisen@hisen-pc:~$ mysqldump -h 127.0.0.1 -u root -p booksystem > booksystem.sql
 ```
 PS:直接在命令行执行即可,无需进入mysql交互界面
+
+
+
+
 
 ## 其他问题
 ### springMVC拦截器
@@ -80,91 +88,100 @@ http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
 
 ## 目录结构
 ```
-├── java
-│   └── com
-│       └── hisen
-│           ├── aop
-│           │   ├── GetMethodInfoHandler.java
-│           │   └── TimeHandler.java
-│           ├── bean
-│           │   ├── contains
-│           │   │   └── CommonEnum.java
-│           │   ├── dto
-│           │   │   └── UserInfoLoginDto.java
-│           │   ├── entity
-│           │   │   ├── AppointmentExample.java
-│           │   │   ├── Appointment.java
-│           │   │   ├── Book.java
-│           │   │   ├── JWTInfo.java
-│           │   │   ├── UserInfoExample.java
-│           │   │   └── UserInfo.java
-│           │   ├── request
-│           │   │   ├── AppointmentRequest.java
-│           │   │   ├── CommonRequest.java
-│           │   │   └── UserLoginRequest.java
-│           │   └── response
-│           │       ├── CommonResponse.java
-│           │       └── UserLoginResponse.java
-│           ├── common
-│           │   ├── CookieUtil.java
-│           │   ├── JWTUtil.java
-│           │   └── MD5Util.java
-│           ├── controller
-│           │   ├── AppointmengtController.java
-│           │   ├── BookController.java
-│           │   └── UserInfoController.java
-│           ├── dao
-│           │   ├── AppointmentMapper.java
-│           │   ├── BookDao.java
-│           │   ├── RedisCache.java
-│           │   ├── RedisCacheTransfer.java
-│           │   ├── sql
-│           │   │   ├── booksystem_appointment.sql
-│           │   │   ├── booksystem_book.sql
-│           │   │   ├── booksystem_user_info.sql
-│           │   │   └── booksystem_user.sql
-│           │   └── UserInfoMapper.java
-│           ├── filter
-│           │   ├── CorsFilter.java
-│           │   └── JWTCheckInterceptor.java
-│           └── service
-│               ├── AppointmentService.java
-│               ├── BookService.java
-│               ├── impl
-│               │   ├── AppointmentServiceImpl.java
-│               │   ├── BookServiceImpl.java
-│               │   └── UserInfoServiceImpl.java
-│               └── UserInfoService.java
-├── resources
-│   ├── generatorConfig.xml
-│   ├── jdbc.properties
-│   ├── logback.xml
-│   ├── mapper
-│   │   ├── AppointmentMapper.xml
-│   │   ├── BookMapper.xml
-│   │   └── UserInfoMapper.xml
-│   ├── mybatis-config.xml
-│   ├── redis.properties
-│   └── spring
-│       ├── spring-aop.xml
-│       ├── spring-dao.xml
-│       ├── spring-service.xml
-│       └── spring-web.xml
-└── webapp
-    ├── front
-    │   ├── css
-    │   ├── html
-    │   │   ├── bookList.html
-    │   │   ├── login.html
-    │   │   └── register.html
-    │   └── js
-    │       ├── bookList.js
-    │       ├── demo.js
-    │       ├── login.js
-    │       └── register.js
-    ├── index.jsp
-    └── WEB-INF
-        └── web.xml
+.
+|-- README.md
+|-- pom.xml
+|-- sql
+|   `-- booksystem.sql
+|-- src
+|   |-- main
+|   |   |-- java
+|   |   |   `-- com
+|   |   |       `-- weng
+|   |   |           |-- aop
+|   |   |           |   |-- GetMethodInfoHandler.java
+|   |   |           |   `-- TimeHandler.java
+|   |   |           |-- bean
+|   |   |           |   |-- contains
+|   |   |           |   |   `-- CommonEnum.java
+|   |   |           |   |-- dto
+|   |   |           |   |   `-- UserInfoLoginDto.java
+|   |   |           |   |-- entity
+|   |   |           |   |   |-- Appointment.java
+|   |   |           |   |   |-- AppointmentExample.java
+|   |   |           |   |   |-- Book.java
+|   |   |           |   |   |-- JWTInfo.java
+|   |   |           |   |   |-- UserInfo.java
+|   |   |           |   |   `-- UserInfoExample.java
+|   |   |           |   |-- request
+|   |   |           |   |   |-- AppointmentRequest.java
+|   |   |           |   |   |-- CommonRequest.java
+|   |   |           |   |   `-- UserLoginRequest.java
+|   |   |           |   `-- response
+|   |   |           |       |-- CommonResponse.java
+|   |   |           |       `-- UserLoginResponse.java
+|   |   |           |-- common
+|   |   |           |   |-- CookieUtil.java
+|   |   |           |   |-- JWTUtil.java
+|   |   |           |   `-- MD5Util.java
+|   |   |           |-- controller
+|   |   |           |   |-- AppointmengtController.java
+|   |   |           |   |-- BookController.java
+|   |   |           |   `-- UserInfoController.java
+|   |   |           |-- dao
+|   |   |           |   |-- AppointmentMapper.java
+|   |   |           |   |-- BookDao.java
+|   |   |           |   |-- RedisCache.java
+|   |   |           |   |-- RedisCacheTransfer.java
+|   |   |           |   `-- UserInfoMapper.java
+|   |   |           |-- filter
+|   |   |           |   |-- CorsFilter.java
+|   |   |           |   `-- JWTCheckInterceptor.java
+|   |   |           `-- service
+|   |   |               |-- AppointmentService.java
+|   |   |               |-- BookService.java
+|   |   |               |-- UserInfoService.java
+|   |   |               `-- impl
+|   |   |                   |-- AppointmentServiceImpl.java
+|   |   |                   |-- BookServiceImpl.java
+|   |   |                   `-- UserInfoServiceImpl.java
+|   |   |-- resources
+|   |   |   |-- generatorConfig.xml
+|   |   |   |-- jdbc.properties
+|   |   |   |-- logback.xml
+|   |   |   |-- mapper
+|   |   |   |   |-- AppointmentMapper.xml
+|   |   |   |   |-- BookMapper.xml
+|   |   |   |   `-- UserInfoMapper.xml
+|   |   |   |-- mybatis-config.xml
+|   |   |   |-- redis.properties
+|   |   |   `-- spring
+|   |   |       |-- spring-aop.xml
+|   |   |       |-- spring-dao.xml
+|   |   |       |-- spring-service.xml
+|   |   |       `-- spring-web.xml
+|   |   `-- webapp
+|   |       |-- WEB-INF
+|   |       |   `-- web.xml
+|   |       |-- index.jsp
+|   |       `-- static
+|   |           |-- css
+|   |           |   `-- bootstrap.min_3.3.4.css
+|   |           |-- html
+|   |           |   |-- bookList.html
+|   |           |   |-- login.html
+|   |           |   `-- register.html
+|   |           `-- js
+|   |               |-- bookList.js
+|   |               |-- demo.js
+|   |               |-- lib
+|   |               |   |-- jquery.cookie.min.js
+|   |               |   `-- jquery.min_2.1.4.js
+|   |               |-- login.js
+|   |               `-- register.js
+|   `-- test
+|       |-- AppointmentServiceImplTest.java
+|       `-- BaseTest.java
+`-- ssm_bs_v3.iml
 
-26 directories, 59 files
 ```
