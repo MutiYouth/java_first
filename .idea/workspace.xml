@@ -13,45 +13,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a20a050-5b59-495c-a02f-9f5bdebbf3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_empty/sb_empty.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/sb_helloweb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/ssm_hello.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_empty/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_empty/src/main/java/com/sunlab/helloworld/HelloworldApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_empty/src/main/java/com/sunlab/helloworld/controller/HelloSpringBootController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_empty/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_empty/src/test/java/com/sunlab/helloworld/HelloworldApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/webapp/WEB-INF/pages/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/webapp/WEB-INF/pages/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/webapp/WEB-INF/pages/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/webapp/WEB-INF/pages/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/java/com/weng/web/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/java/com/weng/web/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/WEB-INF/pages/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/WEB-INF/pages/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/WEB-INF/pages/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/WEB-INF/pages/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/articleForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/articleForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/articleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/articleList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/categoryForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/categoryForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/categoryList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/categoryList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/letterForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/letterForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/letterList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/letterList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/linkForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/linkForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/linkList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/linkList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/noticeForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/noticeForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/noticeList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/noticeList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/userSet.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/admin/userSet.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/articleDetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/articleDetail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/articleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/articleList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/contactMe.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/contactMe.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/themes/180708_Youth_Blog2/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb_series/sb_empty/sb_empty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sb_series/sb_empty/sb_empty.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,43 +82,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Learns/Java/Projs/220531_java_first/ssm_series/ssm_hello2&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.1546203&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.35625&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;ddf89695f914aae4b0c2531ab092ff68&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "E:/Learns/Java/Projs/220531_java_first/ssm_series/ssm_hello2",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.1546203",
+    "project.structure.side.proportion": "0.35625",
+    "settings.editor.selected.configurable": "build.tools",
+    "spring.configuration.checksum": "a4a1098eefec3233e74b9f1b085f8a11"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;f62f47f1-d415-43c0-813d-a8698e4e39b6&quot;,
-      &quot;f62f47f1-d415-43c0-813d-a8698e4e39b6/schema/\&quot;test_ssm\&quot;&quot;
+    "RunConfigurationTargetLRU": [
+      "f62f47f1-d415-43c0-813d-a8698e4e39b6",
+      "f62f47f1-d415-43c0-813d-a8698e4e39b6/schema/\"test_ssm\""
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Learns\Java\Projs\220531_java_first\themes\180708_Youth_Blog2\src\main\webapp\WEB-INF\jsp\common" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.sb_curd">
+  <component name="RunManager" selected="Spring Boot.sb_empty">
     <configuration name="ssm_bs_v0_sql" type="DatabaseScript" editBeforeRun="true" temporary="true">
       <script-file value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/sql/booksystem.sql" />
       <script-mode>FILE</script-mode>
@@ -180,6 +148,14 @@
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <module name="sb_curd" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.weng.sb_curd.SbCurdApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sb_empty" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="sb">
+      <option name="ACTIVE_PROFILES" />
+      <module name="sb_empty" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunlab.helloworld.HelloworldApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -639,6 +615,7 @@
       <item itemvalue="Database Script.ssm_bs_v0_sql" />
       <item itemvalue="Spring Boot.sb_curd" />
       <item itemvalue="Spring Boot.sb_hello" />
+      <item itemvalue="Spring Boot.sb_empty" />
       <item itemvalue="Tomcat Server.ssm_bs_v0" />
       <item itemvalue="Tomcat Server.ssm_bs_v1" />
       <item itemvalue="Tomcat Server.ssm_bs_v2" />
@@ -677,6 +654,7 @@
       <workItem from="1654101357378" duration="365000" />
       <workItem from="1654139678130" duration="1241000" />
       <workItem from="1654155479359" duration="2594000" />
+      <workItem from="1654160737997" duration="720000" />
     </task>
     <task id="LOCAL-00001" summary="feat, init">
       <created>1653974720231</created>
@@ -776,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654092388776</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat, theme_youth_blog2, update">
+      <created>1654160838801</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654160838801</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,7 +795,8 @@
     <MESSAGE value="fix, theme_youth_blog2 step1" />
     <MESSAGE value="fix, theme_youth_blog2, ok, can be use normally" />
     <MESSAGE value="fix, ssm_bs_v2, ok, can be use normally" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix, ssm_bs_v2, ok, can be use normally" />
+    <MESSAGE value="feat, theme_youth_blog2, update" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat, theme_youth_blog2, update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
