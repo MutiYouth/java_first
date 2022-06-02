@@ -3,6 +3,7 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/sb_series/sb_hello/doc/db_script/initial_db.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/sb_series/sb_hello/src/main/resources/mapper/UserMapper.xml" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/sb_series/sb_helloweb/doc/db_script/initial_db.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/sql/booksystem.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/resources/mapper/BookMapper.xml" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/resources/mapper/BookMapper.xml" dialect="MySQL" />

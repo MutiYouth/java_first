@@ -13,13 +13,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a20a050-5b59-495c-a02f-9f5bdebbf3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_empty/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_empty/src/main/java/com/sunlab/helloworld/HelloworldApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_empty/src/main/java/com/sunlab/helloworld/controller/HelloSpringBootController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_empty/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_empty/src/test/java/com/sunlab/helloworld/HelloworldApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/doc/db_script/initial_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/HellowebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/bean/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/resources/templates/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/test/java/com/sunlab/helloweb/HellowebApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello2/ssm_hello2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/201000_blog_tests/sb_chenxiao-s-blog_6/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb_series/sb_empty/sb_empty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sb_series/sb_empty/sb_empty.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sb_series/sb_helloweb/sb_helloweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/sb_helloweb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/ssm_bs_v1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/ssm_bs_v1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +62,13 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -95,7 +113,7 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "E:/Learns/Java/Projs/220531_java_first/ssm_series/ssm_hello2",
+    "last_opened_file_path": "E:/Learns/Java/Projs/220531_java_first/sb_series/sb_helloweb",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.1546203",
@@ -108,8 +126,8 @@
       "mysql"
     ],
     "RunConfigurationTargetLRU": [
-      "f62f47f1-d415-43c0-813d-a8698e4e39b6",
-      "f62f47f1-d415-43c0-813d-a8698e4e39b6/schema/\"test_ssm\""
+      "f62f47f1-d415-43c0-813d-a8698e4e39b6/schema/\"test_ssm\"",
+      "f62f47f1-d415-43c0-813d-a8698e4e39b6"
     ]
   }
 }]]></component>
@@ -118,7 +136,13 @@
       <recent name="E:\Learns\Java\Projs\220531_java_first\themes\180708_Youth_Blog2\src\main\webapp\WEB-INF\jsp\common" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.sb_empty">
+  <component name="RunManager" selected="Spring Boot.sb_helloweb">
+    <configuration name="sb_helloweb_sql" type="DatabaseScript" editBeforeRun="true" temporary="true">
+      <script-file value="$PROJECT_DIR$/sb_series/sb_helloweb/doc/db_script/initial_db.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="f62f47f1-d415-43c0-813d-a8698e4e39b6" />
+      <method v="2" />
+    </configuration>
     <configuration name="ssm_bs_v0_sql" type="DatabaseScript" editBeforeRun="true" temporary="true">
       <script-file value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/sql/booksystem.sql" />
       <script-mode>FILE</script-mode>
@@ -143,6 +167,13 @@
       <data-source id="f62f47f1-d415-43c0-813d-a8698e4e39b6" namespace="schema/&quot;test_ssm&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="HellowebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sb_helloweb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunlab.helloweb.HellowebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sb_curd" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="sb">
       <option name="ACTIVE_PROFILES" />
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
@@ -164,6 +195,16 @@
       <option name="ACTIVE_PROFILES" />
       <module name="sb_hello" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.weng.test_simple_app.TestSimpleAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sb_helloweb" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="sb">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="sb_helloweb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunlab.helloweb.HellowebApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -609,13 +650,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Database Script.sb_helloweb_sql" />
       <item itemvalue="Database Script.theme_youth_blog2_sql" />
       <item itemvalue="Database Script.ssm_bs_v3_sql" />
       <item itemvalue="Database Script.ssm_bs_v2_sql" />
       <item itemvalue="Database Script.ssm_bs_v0_sql" />
       <item itemvalue="Spring Boot.sb_curd" />
       <item itemvalue="Spring Boot.sb_hello" />
+      <item itemvalue="Spring Boot.sb_helloweb" />
       <item itemvalue="Spring Boot.sb_empty" />
+      <item itemvalue="Spring Boot.HellowebApplication" />
       <item itemvalue="Tomcat Server.ssm_bs_v0" />
       <item itemvalue="Tomcat Server.ssm_bs_v1" />
       <item itemvalue="Tomcat Server.ssm_bs_v2" />
@@ -624,6 +668,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.sb_helloweb_sql" />
         <item itemvalue="Database Script.theme_youth_blog2_sql" />
         <item itemvalue="Database Script.ssm_bs_v3_sql" />
         <item itemvalue="Database Script.ssm_bs_v2_sql" />
@@ -654,7 +699,8 @@
       <workItem from="1654101357378" duration="365000" />
       <workItem from="1654139678130" duration="1241000" />
       <workItem from="1654155479359" duration="2594000" />
-      <workItem from="1654160737997" duration="720000" />
+      <workItem from="1654160737997" duration="1185000" />
+      <workItem from="1654161936070" duration="676000" />
     </task>
     <task id="LOCAL-00001" summary="feat, init">
       <created>1653974720231</created>
@@ -761,7 +807,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654160838801</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat, add sb_empty">
+      <created>1654161507541</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1654161507541</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -796,7 +849,8 @@
     <MESSAGE value="fix, theme_youth_blog2, ok, can be use normally" />
     <MESSAGE value="fix, ssm_bs_v2, ok, can be use normally" />
     <MESSAGE value="feat, theme_youth_blog2, update" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat, theme_youth_blog2, update" />
+    <MESSAGE value="feat, add sb_empty" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat, add sb_empty" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
