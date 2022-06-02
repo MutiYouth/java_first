@@ -6,29 +6,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ssm_hello" />
         <module name="ssm_bs_v1" />
         <module name="sb_curd" />
         <module name="ssm_bs_v0" />
+        <module name="sb_empty" />
+        <module name="ssm_hello2" />
         <module name="ssm_bs_v3" />
         <module name="theme_youth_blog2" />
         <module name="ssm_bs_v2" />
         <module name="sb_hello" />
+        <module name="sb_helloweb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="sb_curd" target="11" />
+      <module name="sb_empty" target="1.8" />
       <module name="sb_hello" target="1.8" />
+      <module name="sb_helloweb" target="1.8" />
       <module name="ssm_bs_v0" target="1.8" />
-      <module name="ssm_bs_v1" target="1.8" />
-      <module name="ssm_bs_v2" target="1.8" />
-      <module name="ssm_bs_v3" target="1.8" />
+      <module name="ssm_bs_v1" target="1.5" />
+      <module name="ssm_bs_v2" target="1.5" />
+      <module name="ssm_bs_v3" target="1.5" />
+      <module name="ssm_hello" target="1.7" />
+      <module name="ssm_hello2" target="1.7" />
       <module name="theme_youth_blog2" target="1.6" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sb_curd" options="-parameters" />
+      <module name="sb_empty" options="-parameters" />
       <module name="sb_hello" options="-parameters" />
+      <module name="sb_helloweb" options="-parameters" />
     </option>
   </component>
 </project>

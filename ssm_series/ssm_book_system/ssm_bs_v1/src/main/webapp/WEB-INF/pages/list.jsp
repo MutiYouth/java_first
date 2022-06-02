@@ -6,7 +6,7 @@
   Time: 20:10
   note: 使用bootstrap输出后台返回的requestScope对象
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8"%>
 <% String appPath = request.getContextPath(); %>
 <html>
 <head>

@@ -5,6 +5,8 @@
     <file type="web" url="file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1" />
     <file type="web" url="file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2" />
     <file type="web" url="file://$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm_series/ssm_hello" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm_series/ssm_hello2" />
     <file type="web" url="file://$PROJECT_DIR$/themes/180708_Youth_Blog2" />
   </component>
   <component name="MavenProjectsManager">
@@ -17,6 +19,10 @@
         <option value="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v3/pom.xml" />
         <option value="$PROJECT_DIR$/themes/180708_Youth_Blog2/pom.xml" />
         <option value="$PROJECT_DIR$/sb_series/sb_hello/pom.xml" />
+        <option value="$PROJECT_DIR$/sb_series/sb_empty/pom.xml" />
+        <option value="$PROJECT_DIR$/sb_series/sb_helloweb/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_series/ssm_hello/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_series/ssm_hello2/pom.xml" />
       </list>
     </option>
   </component>

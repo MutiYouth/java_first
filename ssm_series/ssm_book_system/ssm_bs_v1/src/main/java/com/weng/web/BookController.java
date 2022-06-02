@@ -66,8 +66,7 @@ public class BookController {
      *
      * @return
      */
-    @RequestMapping(value = "/countNum", method = RequestMethod.POST, produces = {
-            "application/json; charset=utf-8"})
+    @RequestMapping(value = "/countNum", method = RequestMethod.POST, produces = {"application/json; charset=utf-8"})
     @ResponseBody
     private int countNum() {
         int num = bookService.countNum();
