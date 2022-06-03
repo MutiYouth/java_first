@@ -5,8 +5,6 @@ This is a [java_first](https://github.com/MutiYouth/java_first) project for lear
 
 # todo
 
-* ssm_hello, ssm_hello2 合并集成，并上传
-
 * 测试和使用 201000_blog_tests 下的博客内容，并集成到 theme_youth_blog2
   * blog1
   * sb_blog_2
