@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ssm_bs_v2:war exploded" />
+      <artifact name="ssm_hello:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -13,29 +13,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a20a050-5b59-495c-a02f-9f5bdebbf3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/doc/db_script/initial_db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/HellowebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/bean/UserBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/java/com/sunlab/helloweb/serviceImpl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/main/resources/templates/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/src/test/java/com/sunlab/helloweb/HellowebApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello2/ssm_hello2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/201000_blog_tests/sb_chenxiao-s-blog_6/blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/sql/ssm_hello.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/controller/HelloUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/dao/HelloUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/model/HelloUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/service/IHelloUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/service/impl/HelloUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/mapper/HelloUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/mapper/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/webapp/WEB-INF/pages/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/webapp/WEB-INF/pages/user_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/test/java/com/sunlab/helloworld/test/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/test/java/com/sunlab/helloworld/test/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/test/java/com/sunlab/helloworld/test/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sb_series/sb_helloweb/sb_helloweb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sb_series/sb_helloweb/sb_helloweb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/ssm_bs_v1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/ssm_bs_v1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/web/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/web/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_hello/ssm_hello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/ssm_hello.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_hello2/ssm_hello2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/201000_blog_tests/sb_chenxiao-s-blog_6/blog.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,10 +135,10 @@
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "E:/Learns/Java/Projs/220531_java_first/sb_series/sb_helloweb",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.1546203",
     "project.structure.side.proportion": "0.35625",
-    "settings.editor.selected.configurable": "build.tools",
+    "settings.editor.selected.configurable": "file.status.colors",
     "spring.configuration.checksum": "a4a1098eefec3233e74b9f1b085f8a11"
   },
   "keyToStringList": {
@@ -133,10 +153,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Learns\Java\Projs\220531_java_first\ssm_series\ssm_hello" />
       <recent name="E:\Learns\Java\Projs\220531_java_first\themes\180708_Youth_Blog2\src\main\webapp\WEB-INF\jsp\common" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.sb_helloweb">
+  <component name="RunManager" selected="Tomcat Server.ssm_hello">
     <configuration name="sb_helloweb_sql" type="DatabaseScript" editBeforeRun="true" temporary="true">
       <script-file value="$PROJECT_DIR$/sb_series/sb_helloweb/doc/db_script/initial_db.sql" />
       <script-mode>FILE</script-mode>
@@ -166,13 +187,6 @@
       <script-mode>FILE</script-mode>
       <data-source id="f62f47f1-d415-43c0-813d-a8698e4e39b6" namespace="schema/&quot;test_ssm&quot;" />
       <method v="2" />
-    </configuration>
-    <configuration name="HellowebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="sb_helloweb" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunlab.helloweb.HellowebApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="sb_curd" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="sb">
       <option name="ACTIVE_PROFILES" />
@@ -209,7 +223,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ssm_bs_v0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm_bs" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="ssm_bs_v0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm__bs" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -297,7 +311,7 @@
         </option>
       </method>
     </configuration>
-    <configuration name="ssm_bs_v1" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm_bs" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="ssm_bs_v1" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm__bs" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -385,7 +399,7 @@
         </option>
       </method>
     </configuration>
-    <configuration name="ssm_bs_v2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm_bs" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="ssm_bs_v2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm__bs" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -473,7 +487,7 @@
         </option>
       </method>
     </configuration>
-    <configuration name="ssm_bs_v3" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm_bs" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="ssm_bs_v3" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm__bs" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -558,6 +572,94 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="ssm_bs_v3:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="ssm_hello" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" folderName="ssm__basic" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ssm_hello:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_hello_we" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="da3a1c8d-0931-46b5-9140-6ff362343109" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62493" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm_hello:war exploded" />
         </option>
       </method>
     </configuration>
@@ -659,7 +761,7 @@
       <item itemvalue="Spring Boot.sb_hello" />
       <item itemvalue="Spring Boot.sb_helloweb" />
       <item itemvalue="Spring Boot.sb_empty" />
-      <item itemvalue="Spring Boot.HellowebApplication" />
+      <item itemvalue="Tomcat Server.ssm_hello" />
       <item itemvalue="Tomcat Server.ssm_bs_v0" />
       <item itemvalue="Tomcat Server.ssm_bs_v1" />
       <item itemvalue="Tomcat Server.ssm_bs_v2" />
@@ -668,11 +770,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.sb_helloweb_sql" />
         <item itemvalue="Database Script.theme_youth_blog2_sql" />
         <item itemvalue="Database Script.ssm_bs_v3_sql" />
         <item itemvalue="Database Script.ssm_bs_v2_sql" />
         <item itemvalue="Database Script.ssm_bs_v0_sql" />
+        <item itemvalue="Database Script.sb_helloweb_sql" />
       </list>
     </recent_temporary>
   </component>
@@ -700,7 +802,9 @@
       <workItem from="1654139678130" duration="1241000" />
       <workItem from="1654155479359" duration="2594000" />
       <workItem from="1654160737997" duration="1185000" />
-      <workItem from="1654161936070" duration="676000" />
+      <workItem from="1654161936070" duration="1311000" />
+      <workItem from="1654226661930" duration="413000" />
+      <workItem from="1654227694156" duration="4669000" />
     </task>
     <task id="LOCAL-00001" summary="feat, init">
       <created>1653974720231</created>
@@ -814,7 +918,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654161507541</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feat, add sb_helloweb">
+      <created>1654162664395</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1654162664395</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -850,7 +961,8 @@
     <MESSAGE value="fix, ssm_bs_v2, ok, can be use normally" />
     <MESSAGE value="feat, theme_youth_blog2, update" />
     <MESSAGE value="feat, add sb_empty" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat, add sb_empty" />
+    <MESSAGE value="feat, add sb_helloweb" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat, add sb_helloweb" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

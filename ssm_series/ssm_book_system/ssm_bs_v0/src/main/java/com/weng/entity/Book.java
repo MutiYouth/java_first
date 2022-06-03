@@ -1,8 +1,6 @@
 package com.weng.entity;
 
-/**
- * Created by weng on 17-4-24.
- */
+
 public class Book {
   private long bookId;
   private String name;

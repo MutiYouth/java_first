@@ -11,7 +11,6 @@
         <module name="sb_curd" />
         <module name="ssm_bs_v0" />
         <module name="sb_empty" />
-        <module name="ssm_hello2" />
         <module name="ssm_bs_v3" />
         <module name="theme_youth_blog2" />
         <module name="ssm_bs_v2" />
@@ -29,7 +28,6 @@
       <module name="ssm_bs_v2" target="1.5" />
       <module name="ssm_bs_v3" target="1.5" />
       <module name="ssm_hello" target="1.7" />
-      <module name="ssm_hello2" target="1.7" />
       <module name="theme_youth_blog2" target="1.6" />
     </bytecodeTargetLevel>
   </component>

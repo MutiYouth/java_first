@@ -14,9 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
-/**
- * Created by weng on 17-4-24.
- */
+
 @Controller
 @RequestMapping("/book")
 public class BookController {

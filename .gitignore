@@ -7,3 +7,6 @@ mvnw.cmd
 
 # project
 target
+
+# test
+201000_blog_tests
