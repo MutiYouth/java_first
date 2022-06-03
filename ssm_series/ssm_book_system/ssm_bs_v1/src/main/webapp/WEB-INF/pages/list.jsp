@@ -24,7 +24,7 @@
         <div class="col-md-12 column">
             <div class="page-header">
                 <h1>
-                    Book Skin
+                    BOOK SKIN
                     <small>图书管理系统</small>
                 </h1>
             </div>

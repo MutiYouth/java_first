@@ -12,15 +12,22 @@ import java.util.List;
 @Controller
 public class HelloUserController {
 
-    @Autowired
+    // @Autowired
     private IHelloUserService userService;
 
-    @RequestMapping("/getall")
+    // set方法注入
+    @Autowired
+    public void SetIHelloUserService(IHelloUserService iUserService) {
+        this.userService = iUserService;
+    }
+
+    @RequestMapping("/get_all")
     public String getAllUser(Model model) throws Exception {
 
         List<HelloUser> userList = userService.getAll();
         model.addAttribute("userList", userList);
-        return "user_list";
+
+        return "user_list";  // 返回一个use_list.jsp网页
 
     }
 

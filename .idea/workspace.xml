@@ -13,49 +13,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a20a050-5b59-495c-a02f-9f5bdebbf3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/sql/ssm_hello.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/controller/HelloUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/dao/HelloUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/model/HelloUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/service/IHelloUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/service/impl/HelloUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/mapper/HelloUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/mapper/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/spring/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/spring/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/spring/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/webapp/WEB-INF/pages/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/webapp/WEB-INF/pages/user_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/test/java/com/sunlab/helloworld/test/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/test/java/com/sunlab/helloworld/test/UserDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/test/java/com/sunlab/helloworld/test/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/web/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/java/com/weng/web/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/webapp/WEB-INF/pages/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/webapp/WEB-INF/pages/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/webapp/WEB-INF/pages/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v0/src/main/webapp/WEB-INF/pages/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/WEB-INF/pages/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/WEB-INF/pages/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/WEB-INF/pages/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v1/src/main/webapp/WEB-INF/pages/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/jsp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_book_system/ssm_bs_v2/src/main/webapp/WEB-INF/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_hello/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/controller/HelloUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/controller/HelloUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/java/com/sunlab/helloworld/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/webapp/WEB-INF/pages/user_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/webapp/WEB-INF/pages/user_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ssm_series/ssm_hello/ssm_hello.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ssm_series/ssm_hello/ssm_hello.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ssm_series/ssm_hello2/ssm_hello2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/201000_blog_tests/sb_chenxiao-s-blog_6/blog.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +112,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.1546203",
     "project.structure.side.proportion": "0.35625",
-    "settings.editor.selected.configurable": "file.status.colors",
+    "settings.editor.selected.configurable": "build.tools",
     "spring.configuration.checksum": "a4a1098eefec3233e74b9f1b085f8a11"
   },
   "keyToStringList": {
@@ -804,7 +778,7 @@
       <workItem from="1654160737997" duration="1185000" />
       <workItem from="1654161936070" duration="1311000" />
       <workItem from="1654226661930" duration="413000" />
-      <workItem from="1654227694156" duration="4669000" />
+      <workItem from="1654227694156" duration="10718000" />
     </task>
     <task id="LOCAL-00001" summary="feat, init">
       <created>1653974720231</created>
@@ -925,7 +899,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654162664395</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat, add ssm_hello">
+      <created>1654232716591</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654232716591</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -962,7 +943,8 @@
     <MESSAGE value="feat, theme_youth_blog2, update" />
     <MESSAGE value="feat, add sb_empty" />
     <MESSAGE value="feat, add sb_helloweb" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat, add sb_helloweb" />
+    <MESSAGE value="feat, add ssm_hello" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat, add ssm_hello" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

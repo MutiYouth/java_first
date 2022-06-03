@@ -24,7 +24,8 @@
         <div class="col-md-12 column">
             <div class="page-header">
                 <h1>
-                    HiSEN <small>图书管理系统 - by ssm基础框架</small>
+                    BOOK SKIN
+                    <small>图书管理系统</small>
                 </h1>
             </div>
         </div>

@@ -18,8 +18,9 @@ public class UserController {
     public ModelAndView selectUser() throws Exception {
         ModelAndView mv = new ModelAndView();
         User user = userService.selectUser(1);
-        mv.addObject("user", user);
-        mv.setViewName("user");
+        mv.addObject("user", user);  // 值
+        mv.setViewName("user");  // 网页名
+
         return mv;
     }
 }
