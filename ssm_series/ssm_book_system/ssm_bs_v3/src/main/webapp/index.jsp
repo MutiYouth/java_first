@@ -2,7 +2,7 @@
 <% String appPath = request.getContextPath(); %>
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>PRIMARY BookSystem V3</h2>
 
 <br/><br/><br/><br/>
 
