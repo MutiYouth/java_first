@@ -197,6 +197,15 @@
       <artifactId>java-jwt</artifactId>
       <version>3.2.0</version>
     </dependency>
+
+    <!-- add lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.24</version>
+      <scope>compile</scope>
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>ssm_bs_v3</finalName>
@@ -214,6 +223,14 @@
         </dependencies>
         <configuration>
           <overwrite>true</overwrite>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>7</source>
+          <target>7</target>
         </configuration>
       </plugin>
     </plugins>

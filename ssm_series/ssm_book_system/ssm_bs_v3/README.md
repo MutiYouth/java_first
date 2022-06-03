@@ -17,6 +17,9 @@ JWT认证流程:
 5. 随便填写,提交
 6. 有response返回成功,说明ok
 
+备注:
+* 测试前，请启动mysql、redis
+
 ## 前后分离
 目前是全部按这个逻辑去做
  
@@ -175,7 +178,7 @@ http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
 |   |               |-- bookList.js
 |   |               |-- demo.js
 |   |               |-- lib
-|   |               |   |-- jquery.cookie.min.js
+|   |               |   |-- jquery.cookie.min_1.4.1.js
 |   |               |   `-- jquery.min_2.1.4.js
 |   |               |-- login.js
 |   |               `-- register.js

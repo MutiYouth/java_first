@@ -15,8 +15,7 @@ This is a [java_first](https://github.com/MutiYouth/java_first) project for lear
 
 * 学习[Augements](E:\Learns\Java\Augement)，并将特性功能集成到 sb_curd
   * shiro
-  * 登录cookie和后台session<br/>
-    [session参考1](https://blog.csdn.net/weixin_33140809/article/details/113412461)
+  * ~~登录cookie和后台session~~<br/>
   * 切面
   * 日志
   * 自动注入

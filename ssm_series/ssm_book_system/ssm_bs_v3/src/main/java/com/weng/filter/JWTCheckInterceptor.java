@@ -20,12 +20,14 @@ public class JWTCheckInterceptor implements HandlerInterceptor {
 
 	private Logger log = LoggerFactory.getLogger(this.getClass());
 
-	public boolean preHandle(HttpServletRequest request,
-							 HttpServletResponse response, Object o) throws Exception {
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object o) throws Exception {
 		response.setCharacterEncoding("utf-8");
+
 		String jwt = request.getHeader("Authorization");
 		String name = request.getHeader("name");
+
 		log.info("JWTCheckInterceptor - jwt:{},name{}", jwt, name);
+
 		if ("".equals(jwt) || "".equals(name) || null == jwt || null == name) {
 			CommonResponse commonResponse = new CommonResponse();
 			commonResponse.setResCode(CommonEnum.REQUEST_FAILED.getCode());
@@ -33,6 +35,7 @@ public class JWTCheckInterceptor implements HandlerInterceptor {
 			responseMessage(response, response.getWriter(), commonResponse);
 			return false;
 		}
+
 		// 解密信息
 		JWTInfo jwtInfo = JWTUtil.unsign(jwt, JWTInfo.class);
 		log.info("jwt解密之后:{}", JSON.toJSONString(jwtInfo));
@@ -43,6 +46,7 @@ public class JWTCheckInterceptor implements HandlerInterceptor {
 			responseMessage(response, response.getWriter(), commonResponse);
 			return false;
 		}
+
 		if (name.equals(jwtInfo.getUsername())) {
 			return true;
 		}
@@ -53,21 +57,18 @@ public class JWTCheckInterceptor implements HandlerInterceptor {
 			responseMessage(response, response.getWriter(), commonResponse);
 			return false;
 		}
+
 	}
 
-	public void postHandle(HttpServletRequest request,
-						   HttpServletResponse response, Object o, ModelAndView modelAndView)
-			throws Exception {
+	public void postHandle(HttpServletRequest request, HttpServletResponse response, Object o, ModelAndView modelAndView) throws Exception {
 	}
 
-	public void afterCompletion(HttpServletRequest httpServletRequest,
-								HttpServletResponse httpServletResponse, Object o, Exception e) throws Exception {
+	public void afterCompletion(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, Exception e) throws Exception {
 
 	}
 
 	// 请求不通过，返回错误信息给客户端
-	private void responseMessage(HttpServletResponse response, PrintWriter out,
-								 CommonResponse commonResponse) {
+	private void responseMessage(HttpServletResponse response, PrintWriter out, CommonResponse commonResponse) {
 		response.setContentType("application/json; charset=utf-8");
 		String json = JSON.toJSONString(commonResponse);
 		out.print(json);

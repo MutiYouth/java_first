@@ -4,13 +4,13 @@ import static com.weng.common.MD5Util.toMd5;
 
 import com.alibaba.fastjson.JSON;
 import com.weng.bean.request.UserLoginRequest;
+import com.weng.bean.request.UserRegisterRequest;
 import com.weng.bean.response.UserLoginResponse;
 import com.weng.common.CookieUtil;
 import com.weng.service.UserInfoService;
 
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.Map;
+
+import java.util.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -29,7 +29,6 @@ public class UserInfoController {
 
     @Autowired
     private UserInfoService userInfoService;
-
 
     //  post changed to get
     @RequestMapping(value = "/login", method = RequestMethod.POST, produces = "text/plain;charset=UTF-8")
@@ -59,6 +58,7 @@ public class UserInfoController {
         map.put("md5", "test");
         map.put("pwd", "weng");
         CookieUtil.addCookieMap(response, map);
+
         return "hello";
     }
 
@@ -74,7 +74,10 @@ public class UserInfoController {
 
     @RequestMapping(value = "/register", method = RequestMethod.POST, produces = "text/plain;charset=UTF-8")
     @ResponseBody
-    public String register(HttpServletRequest req, HttpServletResponse res, String name) {
+    // public String register(HttpServletRequest req, HttpServletResponse res, String req_data_str) {
+    public String register(HttpServletRequest req, HttpServletResponse res, UserRegisterRequest req_data) {
+
+
         // 打印请求头
         Enumeration<?> enum1 = req.getHeaderNames();
         while (enum1.hasMoreElements()) {

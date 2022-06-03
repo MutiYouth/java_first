@@ -14,6 +14,7 @@ import com.weng.service.UserInfoService;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import javax.annotation.Resource;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
@@ -35,26 +36,31 @@ public class UserInfoServiceImpl implements UserInfoService {
 		UserInfoExample example = new UserInfoExample();
 		example.createCriteria().andNameEqualTo(request.getName()).andPwdEqualTo(request.getPwd());
 		List<UserInfo> userInfos = mapper.selectByExample(example);
-		log.info("[UserLoginResponse]-[login]-[selectByExample]-出参:{}", JSON.toJSONString(userInfos));
 
-
-		UserInfo userInfo = userInfos.get(0);
+		// check if empty
 		UserLoginResponse login = new UserLoginResponse();
-		if (userInfos == null || userInfos.size() == 0 || !request.getPwd().equals(userInfo.getPwd())) {
+		if (userInfos == null || userInfos.size() == 0 || !request.getPwd().equals(userInfos.get(0).getPwd())) {
 			login.setResCode(CommonEnum.LOGIN_FAILED.getCode());
 			login.setResMsg(CommonEnum.LOGIN_FAILED.getMsg());
 			return login;
 		}
-		if ("1".equals(userInfo.getUserState())) {
+		log.info("[UserLoginResponse]-[login]-[selectByExample]-出参:{}", JSON.toJSONString(userInfos));
+
+		// 判断账户的当前状态
+		UserInfo userInfo = userInfos.get(0);
+		if (1 == userInfo.getUserState()) {
 			login.setResCode(CommonEnum.LOGIN_LOCKED.getCode());
 			login.setResMsg(CommonEnum.LOGIN_LOCKED.getMsg());
 			return login;
 		}
+
+		// 未登录过
 		// 生成token
 		JWTInfo jwtInfo = new JWTInfo();
 		jwtInfo.setPassword(userInfo.getPwd());
 		jwtInfo.setUsername(userInfo.getName());
-		String jwt = JWTUtil.sign(jwtInfo, Long.valueOf(CommonEnum.JWT_MAXAGE.getMsg()));
+		String jwt = JWTUtil.sign(jwtInfo, Long.parseLong(CommonEnum.JWT_MAXAGE.getMsg()));
+
 		// 放入返回
 		login.setJwt(jwt);
 		login.setName(userInfo.getName());
@@ -62,6 +68,7 @@ public class UserInfoServiceImpl implements UserInfoService {
 		login.setResCode(CommonEnum.LOGIN_SUCCESS.getCode());
 		login.setResMsg(CommonEnum.LOGIN_SUCCESS.getMsg());
 		log.info("[UserLoginResponse]-[login]-出参:{}", JSON.toJSONString(login));
+
 		return login;
 	}
 
@@ -70,6 +77,7 @@ public class UserInfoServiceImpl implements UserInfoService {
 		String name = null;
 		Map<String, Cookie> stringCookieMap = CookieUtil.ReadCookieMap(req);
 		log.info("[UserLoginResponse]-[checkJWT]-入参:{}", JSON.toJSONString(stringCookieMap));
+
 		// 从cookies中取数据
 		if (!stringCookieMap.isEmpty()) {
 			jwt = stringCookieMap.get("jwt").getValue();
@@ -86,9 +94,7 @@ public class UserInfoServiceImpl implements UserInfoService {
 		JWTInfo jwtInfo = JWTUtil.unsign(jwt, JWTInfo.class);
 		// 利用name去查询密码
 		String checkJWT = mapper.checkJWT(jwtInfo.getUsername());
-		if ((jwtInfo.getPassword()).equals(checkJWT)) {
-			return true;
-		}
-		return false;
+
+		return Objects.equals(jwtInfo.getPassword(), checkJWT);
 	}
 }

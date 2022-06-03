@@ -44,7 +44,8 @@
       <!-- /register 和 /login 不需要拦截-->
       <!--<mvc:exclude-mapping path="/register" />-->
       <!--spring-mvc-3.2.xsd 下面才不会报错-->
-      <!--防止静态文件被拦截-->
+
+      <!--防止静态文件、特定服务被拦截-->
       <mvc:exclude-mapping path="/**/fonts/*"/>
       <mvc:exclude-mapping path="/**/*.css"/>
       <mvc:exclude-mapping path="/**/*.js"/>
@@ -53,8 +54,9 @@
       <mvc:exclude-mapping path="/**/*.jpg"/>
       <mvc:exclude-mapping path="/**/*.jpeg"/>
       <mvc:exclude-mapping path="/**/*login*"/>
+      <mvc:exclude-mapping path="/**/test_s_*"/>
       <mvc:exclude-mapping path="/**/*register.html"/>
-      <bean class="com.weng.filter.JWTCheckInterceptor"></bean>
+      <bean class="com.weng.filter.JWTCheckInterceptor"/>
     </mvc:interceptor>
     <!-- 当设置多个拦截器时，先按顺序调用preHandle方法，然后逆序调用每个拦截器的postHandle和afterCompletion方法 -->
   </mvc:interceptors>
